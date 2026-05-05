@@ -1,0 +1,107 @@
+/* ═══════════════════════════════════════════════════════════════════ */
+/* NEWSLETTER SECTION                                                  */
+/* ═══════════════════════════════════════════════════════════════════ */
+
+.newsletter-section {
+  background-color: var(--color-bg-cream);
+  padding-top: var(--spacing-section);
+  padding-bottom: var(--spacing-section);
+}
+
+.newsletter-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 var(--spacing-gutter);
+}
+
+.newsletter-heading {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 400;
+  color: var(--color-primary);
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.newsletter-subheading {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+  color: var(--color-text);
+  margin-bottom: 40px;
+}
+
+.newsletter-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.newsletter-input-wrap {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-bottom: 2px solid var(--color-border-dark);
+  border-radius: 0;
+  flex: 1;
+  max-width: 400px;
+}
+
+.newsletter-input-wrap input {
+  flex: 1;
+  height: 45px;
+  border: 0;
+  background: transparent;
+  font-family: var(--font-primary);
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--color-primary);
+  padding: 0;
+  outline: none;
+}
+
+.newsletter-input-wrap input::placeholder {
+  color: var(--color-text-muted);
+  font-style: italic;
+  font-size: 20px;
+}
+
+.newsletter-input-wrap button {
+  width: 35px;
+  height: 35px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-size: 18px;
+  color: var(--color-primary);
+  transition: var(--transition-micro);
+}
+
+@media (min-width: 992px) {
+  .newsletter-input-wrap button:hover {
+    opacity: 0.7;
+  }
+}
+
+.newsletter-consent {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+  .newsletter-heading {
+    font-size: 28px;
+  }
+
+  .newsletter-subheading {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .newsletter-input-wrap {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,229 @@
+/* ═══════════════════════════════════════════════════════════════════ */
+/* CARD COMPONENTS                                                     */
+/* ═══════════════════════════════════════════════════════════════════ */
+
+/* CATEGORY CARD */
+
+.category-card {
+  display: block;
+  text-decoration: none;
+}
+
+.category-card__image-wrap {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+}
+
+.category-card__image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 992px) {
+  .category-card:hover .category-card__image-wrap img {
+    transform: scale(1.02);
+  }
+}
+
+.category-card__label {
+  display: block;
+  margin-top: 12px;
+  font-family: var(--font-primary);
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+/* PRODUCT CARD */
+
+.product-card {
+  display: block;
+  text-decoration: none;
+}
+
+.product-card__image-wrap {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background-color: var(--color-bg-light);
+}
+
+.product-card__image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 992px) {
+  .product-card:hover .product-card__image-wrap img {
+    transform: scale(1.02);
+  }
+}
+
+.product-card__info {
+  padding: var(--spacing-card);
+  background-color: var(--color-bg-warm);
+}
+
+.product-card__title {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-text);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.product-card__price {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
+/* EDITORIAL OVERLAY CARD */
+
+.editorial-section {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .editorial-section {
+    height: 500px;
+  }
+}
+
+.editorial-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-bg);
+  padding: 32px 48px;
+  text-align: center;
+  border-radius: 0;
+  min-width: 280px;
+  max-width: 90%;
+}
+
+.editorial-card__eyebrow {
+  display: block;
+  font-family: var(--font-primary);
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.editorial-card__headline {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 400;
+  color: var(--color-text);
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.editorial-card__cta {
+  display: inline-block;
+}
+
+/* REVIEW / TESTIMONIAL CARD */
+
+.review-card {
+  background-color: var(--color-bg-warm);
+  padding: var(--spacing-card);
+  border-radius: 0;
+}
+
+.review-card__rating {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.review-card__star {
+  color: var(--color-primary);
+  font-size: 14px;
+}
+
+.review-card__title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.review-card__author {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  margin-bottom: 8px;
+}
+
+.review-card__text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+/* COLLECTION / CATEGORY GRID CARD */
+
+.collection-card {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.collection-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 992px) {
+  .collection-card:hover .collection-card__image {
+    transform: scale(1.05);
+  }
+}
+
+.collection-card__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.collection-card__label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-inverted);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

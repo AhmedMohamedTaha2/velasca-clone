@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velasca | Italian style, made to last</title>
+    <meta
+      name="description"
+      content="Premium Italian handcrafted leather shoes and clothing. Artisanal quality at a fair price, made to last a lifetime."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Jomolhari&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- ═══════════════════════════════════════════
+         ANNOUNCEMENT BAR
+    ═══════════════════════════════════════════ -->
+    <div class="announcement-bar" role="banner">
+      <div class="announcement-bar__track">
+        <span class="announcement-bar__text"
+          >Duties are on us! No extra charges at delivery</span
+        >
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════
+         SITE HEADER
+    ═══════════════════════════════════════════ -->
+    <header class="site-header" id="site-header">
+      <!-- Utility row: links | logo | icons -->
+      <div class="site-header__utility">
+        <div class="site-header__utility-left">
+          <a href="/pages/shipping-country" class="site-header__util-link">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path
+                d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+              />
+            </svg>
+            United States
+          </a>
+          <span class="site-header__util-sep" aria-hidden="true">|</span>
+          <a href="#" class="site-header__util-link">Join the community</a>
+          <span class="site-header__util-sep" aria-hidden="true">|</span>
+          <a href="tel:+19293846040" class="site-header__util-link"
+            >+1 929 384 6040</a
+          >
+          <span class="site-header__util-sep" aria-hidden="true">|</span>
+          <a
+            href="https://wa.me/393389457733"
+            class="site-header__util-link"
+            target="_blank"
+            rel="noopener"
+            >WhatsApp</a
+          >
+        </div>
+
+        <a href="/" class="site-header__logo" aria-label="Velasca home">
+          <img
+            src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/7c57de7e-570d-4aad-b947-0c9022d0b4c1.svg"
+            alt="Velasca"
+            width="400"
+            height="auto"
+          />
+        </a>
+
+        <div class="site-header__icons">
+          <button class="site-header__icon-btn" aria-label="Search">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.35-4.35" />
+            </svg>
+          </button>
+          <a href="/account" class="site-header__icon-btn" aria-label="Account">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
+            </svg>
+          </a>
+          <button class="site-header__icon-btn" aria-label="Cart">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <path d="M16 10a4 4 0 0 1-8 0" />
+            </svg>
+          </button>
+          <button
+            class="site-header__hamburger"
+            id="menu-toggle"
+            aria-label="Open menu"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Main nav row -->
+      <nav class="site-header__nav" aria-label="Main navigation">
+        <a href="/collections/new-arrivals" class="site-header__nav-link"
+          >New Arrivals</a
+        >
+        <a href="/collections/all-shoes" class="site-header__nav-link">Shoes</a>
+        <a href="/collections/all-clothing" class="site-header__nav-link"
+          >Clothing</a
+        >
+        <a href="/collections/all-accessories" class="site-header__nav-link"
+          >Accessories</a
+        >
+        <a href="/collections" class="site-header__nav-link">Collections</a>
+        <a href="/pages/all-our-stores" class="site-header__nav-link">Stores</a>
+        <a href="/collections/outlet" class="site-header__nav-link">Archive</a>
+        <a
+          href="https://www.velascawomen.com/"
+          class="site-header__nav-link site-header__nav-link--woman"
+          target="_blank"
+          rel="noopener"
+          >Woman</a
+        >
+      </nav>
+    </header>
+
+    <!-- Mobile menu drawer -->
+    <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+      <div class="mobile-drawer__overlay" id="drawer-overlay"></div>
+      <div class="mobile-drawer__panel">
+        <button
+          class="mobile-drawer__close"
+          id="drawer-close"
+          aria-label="Close menu"
+        >
+          &times;
+        </button>
+        <nav class="mobile-drawer__nav">
+          <a href="/collections/new-arrivals">New Arrivals</a>
+          <a href="/collections/all-shoes">Shoes</a>
+          <a href="/collections/all-clothing">Clothing</a>
+          <a href="/collections/all-accessories">Accessories</a>
+          <a href="/collections">Collections</a>
+          <a href="/pages/all-our-stores">Stores</a>
+          <a href="/collections/outlet">Archive</a>
+          <a href="https://www.velascawomen.com/" target="_blank" rel="noopener"
+            >Woman ↗</a
+          >
+        </nav>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════
+         MAIN CONTENT
+    ═══════════════════════════════════════════ -->
+    <main id="main-content">
+      <!-- HERO -->
+      <section class="hero" aria-label="Hero banner">
+        <div class="hero__media">
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_visual_top_hp_total_look.jpg.jpeg?v=1773654465&width=800 800w,
+                ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_visual_top_hp_total_look.jpg.jpeg?v=1773654465&width=800 800w,
+                1200w
+              "
+              sizes="100vw"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_visual_top_hp_total_look.jpg.jpeg
+              "
+              sizes="100vw"
+            />
+            <img
+              class="hero__img"
+              src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_visual_top_hp_total_look.jpg.jpeg"
+              alt="Velasca Spring Summer 2026 collection"
+              loading="eager"
+              fetchpriority="high"
+            />
+          </picture>
+        </div>
+        <div class="hero__cta">
+          <a href="/collections/all-products" class="btn btn--ghost-white"
+            >Discover all products</a
+          >
+        </div>
+      </section>
+
+      <!-- CATEGORY GRID -->
+      <section class="category-grid" aria-label="Shop by category">
+        <a href="/collections/all-shoes" class="category-card">
+          <div class="category-card__img-wrap">
+            <img
+              src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8//mar2026_blocco_rimando_scarpe.jpg.jpeg"
+              srcset="
+                ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8//mar2026_blocco_rimando_scarpe.jpg.jpeg
+              "
+              sizes="(max-width: 767px) 100vw, 33vw"
+              alt="Shoes collection"
+              loading="eager"
+            />
+          </div>
+          <h3 class="category-card__label">Shoes →</h3>
+        </a>
+
+        <a href="/collections/all-clothing" class="category-card">
+          <div class="category-card__img-wrap">
+            <img
+              src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8//mar2026_blocco_rimando_abbigliamento.jpg.jpeg"
+              srcset="
+                ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8//mar2026_blocco_rimando_abbigliamento.jpg.jpeg
+              "
+              sizes="(max-width: 767px) 100vw, 33vw"
+              alt="Clothing collection"
+              loading="eager"
+            />
+          </div>
+          <h3 class="category-card__label">Clothing →</h3>
+        </a>
+
+        <a href="/collections/all-accessories" class="category-card">
+          <div class="category-card__img-wrap">
+            <img
+              src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar2026_blocco_rimando_accessori.jpg.jpeg"
+              srcset="
+                ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar2026_blocco_rimando_accessori.jpg.jpeg
+              "
+              sizes="(max-width: 767px) 100vw, 33vw"
+              alt="Accessories collection"
+              loading="eager"
+            />
+          </div>
+          <h3 class="category-card__label">Accessories →</h3>
+        </a>
+      </section>
+
+      <!-- EDITORIAL CAROUSEL -->
+      <section class="editorial-carousel" aria-label="Editorial stories">
+        <div class="editorial-slide active">
+          <img
+            src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar2026_rimando_lookbook_pe26.jpg.jpeg"
+            alt="Spring/Summer '26"
+            loading="lazy"
+          />
+          <a href="/pages/spring-summer-2026" class="editorial-slide__label"
+            >Spring / Summer '26</a
+          >
+        </div>
+        <div class="editorial-slide">
+          <img
+            src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar2026_rimando_campagna_pe26_sicilia.jpg.jpeg"
+            alt="S/S '26 in Sicily"
+            loading="lazy"
+          />
+          <a
+            href="/pages/spring-summer-2026-in-sicily"
+            class="editorial-slide__label"
+            >S/S '26 in Sicily</a
+          >
+        </div>
+        <div class="editorial-slide">
+          <img
+            src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/dic_2025_blocco_rimando_inverno_sulle_dolomiti.jpeg"
+            alt="Winter in the Dolomites"
+            loading="lazy"
+          />
+          <a
+            href="/pages/winter-in-the-dolomites"
+            class="editorial-slide__label"
+            >Winter in the Dolomites</a
+          >
+        </div>
+        <div class="editorial-slide">
+          <img
+            src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/sett2025_rimando_campagna_ai25_dolomiti.jpeg"
+            alt="F/W '25 in Cortina"
+            loading="lazy"
+          />
+          <a
+            href="/pages/fall-winter-2025-in-the-dolomites"
+            class="editorial-slide__label"
+            >F/W '25 in Cortina</a
+          >
+        </div>
+        <div class="editorial-slide">
+          <img
+            src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/lug_2025_rimando_lookbook_pe25 (1).jpeg"
+            alt="Fall/Winter '25"
+            loading="lazy"
+          />
+          <a href="/pages/fall-winter-2025" class="editorial-slide__label"
+            >Fall / Winter '25</a
+          >
+        </div>
+        <div class="editorial-slide">
+          <img
+            src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/lug2025_blocco_rimando_bottega.jpg.jpeg"
+            alt="By the Amalfi Coast"
+            loading="lazy"
+          />
+          <a href="/pages/by-the-amalfi-coast" class="editorial-slide__label"
+            >By the Amalfi Coast</a
+          >
+        </div>
+        <div class="editorial-slide">
+          <img
+            src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/lug_2025_rimando_lookbook_pe25.jpg_1.jpeg"
+            alt="A trip to Apulia"
+            loading="lazy"
+          />
+          <a href="/pages/s-s-in-apulia" class="editorial-slide__label"
+            >A trip to Apulia</a
+          >
+        </div>
+        <div class="editorial-slide">
+          <img
+            src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/lug_2025_rimando_lookbook_pe25.jpg.jpeg"
+            alt="P/E '25 Style Edit"
+            loading="lazy"
+          />
+          <a href="/pages/s-s-2025-style-edit" class="editorial-slide__label"
+            >P/E '25 Style Edit</a
+          >
+        </div>
+
+        <button
+          class="editorial-carousel__nav editorial-carousel__nav--prev"
+          aria-label="Previous story"
+        >
+          <svg
+            viewBox="0 0 28 15.33"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            aria-hidden="true"
+          >
+            <path
+              d="m26.2 1.76-11.2 11.24a1.42 1.42 0 0 1-2 0L1.76 1.76"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="3"
+            />
+          </svg>
+        </button>
+        <button
+          class="editorial-carousel__nav editorial-carousel__nav--next"
+          aria-label="Next story"
+        >
+          <svg
+            viewBox="0 0 28 15.33"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            aria-hidden="true"
+          >
+            <path
+              d="m26.2 1.76-11.2 11.24a1.42 1.42 0 0 1-2 0L1.76 1.76"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="3"
+            />
+          </svg>
+        </button>
+
+        <div
+          class="editorial-dots"
+          id="dots"
+          aria-label="Story pagination"
+        ></div>
+      </section>
+
+      <!-- GET INSPIRED — 2 rows × 3 columns -->
+      <section class="product-blocks" aria-label="Get inspired">
+        <h2 class="product-blocks__heading">Get inspired</h2>
+        <div class="product-blocks__grid">
+          <a href="/collections/lace-ups" class="product-block">
+            <div class="product-block__img-wrap">
+              <img
+                src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_1a_stringate_cumenda_nl.jpg.jpeg"
+                srcset="
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_1a_stringate_cumenda_nl.jpg.jpeg   500w,
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_1a_stringate_cumenda_nl.jpg_1.jpeg   800w,
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_1a_stringate_cumenda_nl.jpg_2.jpeg 1200w
+                "
+                sizes="(max-width: 767px) 100vw, 33vw"
+                alt="Lace-ups"
+                loading="lazy"
+              />
+            </div>
+            <h3 class="product-block__label">Lace-ups →</h3>
+          </a>
+
+          <a href="/collections/knitwear" class="product-block">
+            <div class="product-block__img-wrap">
+              <img
+                src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_1b_maglieria_medolla_mgn229.jpg.jpeg"
+                srcset="
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_1b_maglieria_medolla_mgn229.jpg.jpeg   500w,
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_1b_maglieria_medolla_mgn229.jpg_1.jpeg   800w,
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_1b_maglieria_medolla_mgn229.jpg_1.jpeg 1200w
+                "
+                sizes="(max-width: 767px) 100vw, 33vw"
+                alt="Knitwear"
+                loading="lazy"
+              />
+            </div>
+            <h3 class="product-block__label">Knitwear →</h3>
+          </a>
+
+          <a
+            href="/collections/tassel-and-belgian-loafers"
+            class="product-block"
+          >
+            <div class="product-block__img-wrap">
+              <img
+                src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_1c_tassel_loafers_cadregatt_tdms.jpg.jpeg"
+                srcset="
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_1c_tassel_loafers_cadregatt_tdms.jpg.jpeg   500w,
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_1c_tassel_loafers_cadregatt_tdms.jpg_1.jpeg   800w,
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_1c_tassel_loafers_cadregatt_tdms.jpg_2.jpeg 1200w
+                "
+                sizes="(max-width: 767px) 100vw, 33vw"
+                alt="Tassel and Belgian Loafers"
+                loading="lazy"
+              />
+            </div>
+            <h3 class="product-block__label">Tassel &amp; Belgian Loafers →</h3>
+          </a>
+
+          <a href="/collections/pants" class="product-block">
+            <div class="product-block__img-wrap">
+              <img
+                src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_2a_pantaloni_millesimo_bllcd.jpg.jpeg"
+                srcset="
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_2a_pantaloni_millesimo_bllcd.jpg.jpeg   500w,
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_2a_pantaloni_millesimo_bllcd.jpg_1.jpeg   800w,
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_2a_pantaloni_millesimo_bllcd.jpg_1.jpeg 1200w
+                "
+                sizes="(max-width: 767px) 100vw, 33vw"
+                alt="Pants"
+                loading="lazy"
+              />
+            </div>
+            <h3 class="product-block__label">Pants →</h3>
+          </a>
+
+          <a href="/collections/sneakers" class="product-block">
+            <div class="product-block__img-wrap">
+              <img
+                src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_2b_sneakers_ciciarun_bvn.jpg.jpeg"
+                srcset="
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_2b_sneakers_ciciarun_bvn.jpg.jpeg   500w,
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_2b_sneakers_ciciarun_bvn.jpg_1.jpeg   800w,
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_2b_sneakers_ciciarun_bvn.jpg_2.jpeg 1200w
+                "
+                sizes="(max-width: 767px) 100vw, 33vw"
+                alt="Sneakers"
+                loading="lazy"
+              />
+            </div>
+            <h3 class="product-block__label">Sneakers →</h3>
+          </a>
+
+          <a href="/collections/jackets" class="product-block">
+            <div class="product-block__img-wrap">
+              <img
+                src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_2c_giubbotti_compiano_ms.jpg.jpeg"
+                srcset="
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_2c_giubbotti_compiano_ms.jpg.jpeg   500w,
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_2c_giubbotti_compiano_ms.jpg_1.jpeg   800w,
+                  ./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_2c_giubbotti_compiano_ms.jpg_2.jpeg 1200w
+                "
+                sizes="(max-width: 767px) 100vw, 33vw"
+                alt="Jackets"
+                loading="lazy"
+              />
+            </div>
+            <h3 class="product-block__label">Jackets →</h3>
+          </a>
+        </div>
+      </section>
+
+      <!-- MADE IN ITALY -->
+      <section class="cta-block" aria-label="Artisanal craftmanship">
+        <div class="cta-block__media">
+          <img
+            src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/lug_2025_blocco_made_in_italy.jpg.jpeg"
+            alt="Velasca For Her"
+            loading="lazy"
+          />
+        </div>
+        <a href="/pages/about-us" class="cta-block__box">
+          <h3 class="cta-block__eyebrow">Artisanal Craftmanship</h3>
+          <h2 class="cta-block__headline">Made in Italy</h2>
+        </a>
+      </section>
+
+      <!-- IN STORE -->
+      <section
+        class="cta-block first-Block cta-block--tall"
+        aria-label="Visit us in store"
+      >
+        <div class="cta-block__media">
+          <img
+            src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/lug2025_blocco_rimando_bottega.jpg_3.jpeg"
+            alt="Velasca For Her"
+            loading="lazy"
+          />
+        </div>
+        <a href="/pages/all-our-stores" class="cta-block__box">
+          <h3 class="cta-block__eyebrow">Come Visit Us</h3>
+          <h2 class="cta-block__headline">In store</h2>
+        </a>
+      </section>
+
+      <!-- FOR HER -->
+      <section
+        class="cta-block cta-block--tall FOR-HER"
+        aria-label="Velasca for her"
+      >
+        <div class="cta-block__media">
+          <img
+            src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/mar_2026_blocco_rimando_sito_donna.jpg_3.jpeg"
+            alt="Velasca For Her"
+            loading="lazy"
+          />
+        </div>
+        <a
+          href="https://www.velascawomen.com/"
+          class="cta-block__box"
+          target="_blank"
+          rel="noopener"
+        >
+          <h3 class="cta-block__eyebrow">Velasca</h3>
+          <h2 class="cta-block__headline">For her</h2>
+        </a>
+      </section>
+
+      <!-- NEWSLETTER -->
+      <section class="newsletter" aria-label="Newsletter signup">
+        <div class="news">
+          <div class="newsletter__image">
+            <img
+              src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/blocco_nwsltr_uomo_foto_2.png"
+              alt="Velasca style"
+              loading="lazy"
+            />
+          </div>
+          <div class="newsletter__content">
+            <h2 class="newsletter__heading">Let's keep in touch</h2>
+            <p class="newsletter__sub">
+              Subscribe to our newsletter and be the first to discover new
+              arrivals, exclusive offers and style inspiration.
+            </p>
+            <form class="newsletter__form" onsubmit="return false;" novalidate>
+              <input
+                type="email"
+                class="newsletter__input"
+                placeholder="Enter your email"
+                autocomplete="email"
+                aria-label="Email address"
+                required
+              />
+              <button
+                type="submit"
+                class="newsletter__btn"
+                aria-label="Subscribe"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </button>
+            </form>
+            <p class="newsletter__legal">
+              By subscribing you agree to Velasca's
+              <a href="/pages/terms-and-conditions">terms of service</a> and
+              consent to the processing of your personal data.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ═══════════════════════════════════════════
+         FOOTER
+    ═══════════════════════════════════════════ -->
+    <footer class="site-footer" id="footer">
+      <div class="footer-inner">
+        <!-- Breadcrumb -->
+        <nav class="footer-breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a>
+        </nav>
+
+        <hr class="footer-rule" />
+
+        <!-- 3 columns -->
+        <div class="footer-cols">
+          <div class="footer-col footer-col--brand">
+            <h3 class="footer-col__heading">We're here for you</h3>
+            <p class="footer-col__body">
+              Velasca was created to offer you artisanal quality shoes and
+              clothing at a fair price. To be worn for a lifetime. We really
+              care, so if you have any doubts, do get in touch.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-col__heading">Help</h3>
+            <ul class="footer-col__list">
+              <li>
+                <a
+                  href="https://cdn.shopify.com/s/files/1/1627/0215/files/Relazione_d_impatto_2025.pdf"
+                  >Impact report</a
+                >
+              </li>
+              <li>
+                <a href="/pages/accessibility-statement"
+                  >Accessibility Statement</a
+                >
+              </li>
+              <li>
+                <a href="/pages/shipping-and-return">Shipping and returns</a>
+              </li>
+              <li>
+                <a href="https://go.ifreturns.com/en/us-velasca"
+                  >Make a return</a
+                >
+              </li>
+              <li><a href="tel:+19293846040">Mob: +1 929 384 6040</a></li>
+              <li>
+                <a href="mailto:hello@velasca.com">Email: hello@velasca.com</a>
+              </li>
+              <li><a href="/pages/all-our-stores">All our stores</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-col__heading">About</h3>
+            <ul class="footer-col__list">
+              <li><a href="/pages/all-our-stores">All our stores</a></li>
+              <li><a href="/pages/about-us">About us</a></li>
+              <li><a href="https://velasca.workable.com/">Work with us</a></li>
+              <li><a href="/collections/outlet">Archive</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Payment methods -->
+        <img
+          src="./public/images/www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8/Metodi-pagamento-extra-IT.png"
+          alt="Accepted payment methods"
+          class="footer-payments"
+          loading="lazy"
+          width="350"
+        />
+
+        <hr class="footer-rule" />
+
+        <!-- Bottom bar -->
+        <div class="footer-bottom">
+          <p class="footer-bottom__copy">
+            © All rights reserved: Velasca LLC, 250 Elizabeth Street, New York,
+            NY 10012, United States
+          </p>
+          <ul class="footer-bottom__links">
+            <li>
+              <a href="/pages/terms-and-conditions">Terms &amp; Conditions</a>
+            </li>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/cookie-policy">Cookie Policy</a></li>
+            <li><a href="/pages/whistleblowing">Whistleblowing</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/carousel-custom.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

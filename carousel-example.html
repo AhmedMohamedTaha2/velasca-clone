@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Carousel Example</title>
+
+    <!-- Include CSS Variables -->
+    <style>
+      :root {
+        --theme-primary-color: #185674;
+        --theme-primary-light: #427892;
+        --theme-background-color: #ffffff;
+        --theme-font-family: "Jost", serif;
+        --theme-text-color: #313332;
+      }
+    </style>
+
+    <!-- Include Carousel CSS -->
+    <link rel="stylesheet" href="css/component-carousel-custom.css" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: var(--theme-font-family, serif);
+        background: #f5f5f5;
+        padding: 2rem;
+      }
+
+      .carousel-section {
+        max-width: 1200px;
+        margin: 0 auto;
+        background: white;
+        padding: 2rem;
+        border-radius: 4px;
+      }
+
+      .carousel-section h2 {
+        margin-bottom: 2rem;
+        color: var(--theme-text-color);
+        font-size: 1.75rem;
+      }
+
+      /* Make carousel responsive */
+      #homeCarousel {
+        min-height: 400px;
+        padding: 0 70px;
+      }
+
+      #homeCarousel .carousel-wrapper {
+        min-height: 400px;
+      }
+
+      @media (max-width: 768px) {
+        #homeCarousel {
+          min-height: 300px;
+          padding: 0 50px;
+        }
+
+        #homeCarousel .carousel-wrapper {
+          min-height: 300px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        #homeCarousel {
+          min-height: 250px;
+          padding: 0 40px;
+        }
+
+        #homeCarousel .carousel-wrapper {
+          min-height: 250px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="carousel-section">
+      <h2>Featured Collections</h2>
+
+      <div id="homeCarousel" class="carousel-container" data-carousel="home">
+        <div class="carousel-wrapper">
+          <!-- Slide 1 -->
+          <div class="carousel-slide active">
+            <img
+              src="https://via.placeholder.com/1200x500?text=Spring+Summer+2026"
+              alt="Spring/Summer 2026 Collection"
+            />
+            <div class="carousel-slide-content">
+              <h3 class="carousel-slide-title">Spring/Summer '26</h3>
+              <a href="#" class="carousel-slide-button">View Collection</a>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-slide">
+            <img
+              src="https://via.placeholder.com/1200x500?text=Sicily+Collection"
+              alt="Sicily Collection"
+            />
+            <div class="carousel-slide-content">
+              <h3 class="carousel-slide-title">S/S '26 in Sicily</h3>
+              <a href="#" class="carousel-slide-button">Explore</a>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-slide">
+            <img
+              src="https://via.placeholder.com/1200x500?text=Winter+Dolomites"
+              alt="Winter in Dolomites"
+            />
+            <div class="carousel-slide-content">
+              <h3 class="carousel-slide-title">Winter in the Dolomites</h3>
+              <a href="#" class="carousel-slide-button">Discover</a>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="carousel-slide">
+            <img
+              src="https://via.placeholder.com/1200x500?text=Fall+Winter+2025"
+              alt="Fall/Winter 2025"
+            />
+            <div class="carousel-slide-content">
+              <h3 class="carousel-slide-title">Fall/Winter '25</h3>
+              <a href="#" class="carousel-slide-button">Shop Now</a>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="carousel-slide">
+            <img
+              src="https://via.placeholder.com/1200x500?text=Amalfi+Coast"
+              alt="Amalfi Coast"
+            />
+            <div class="carousel-slide-content">
+              <h3 class="carousel-slide-title">By the Amalfi Coast</h3>
+              <a href="#" class="carousel-slide-button">Learn More</a>
+            </div>
+          </div>
+
+          <!-- Pagination -->
+          <div class="carousel-pagination">
+            <button class="pagination-dot active"></button>
+            <button class="pagination-dot"></button>
+            <button class="pagination-dot"></button>
+            <button class="pagination-dot"></button>
+            <button class="pagination-dot"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Include Carousel JavaScript -->
+    <script src="js/carousel-custom.js"></script>
+
+    <script>
+      // Initialize carousel with custom options
+      document.addEventListener("DOMContentLoaded", () => {
+        const carousel = new CustomCarousel("#homeCarousel", {
+          autoplay: false, // Set to true to enable autoplay
+          autoplayDelay: 5000, // Delay in milliseconds
+          loop: true, // Loop back to start
+          transitionDuration: 600, // Animation duration in milliseconds
+        });
+
+        // Optional: Log current slide
+        document.querySelectorAll(".carousel-nav-btn").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            console.log("Current slide:", carousel.currentIndex);
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

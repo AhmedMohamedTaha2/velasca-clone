@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.velasca.com)",
+      "Bash(curl -L -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" -H \"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\" -H \"Accept-Language: en-US,en;q=0.5\" \"https://www.velasca.com/\")",
+      "Bash(curl -L -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" \"https://www.velasca.com/\")",
+      "Bash(grep -oE '\\(//www\\\\.velasca\\\\.com/cdn/shop/files/[^\"&? ]+\\\\.\\(jpg|jpeg|png|webp|gif|svg\\)[^\"& ]*\\)')",
+      "Bash(curl -L -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" \"https://www.velasca.com/cdn/shop/t/13/assets/main.css?v=39400874295844498411763560819\")",
+      "Read(//tmp/**)",
+      "Bash(curl -L -A \"Mozilla/5.0\" \"https://www.velasca.com/cdn/shop/t/13/assets/main.css?v=39400874295844498411763560819\")",
+      "Bash(grep -oE '\\(//www\\\\.velasca\\\\.com/cdn/shop/files/[^\"&? ]+\\\\.\\(jpg|jpeg|png|webp|gif|svg\\)\\)' /tmp/velasca_home.html)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_snapshot",
+      "Bash(npx --yes serve . --listen 3456 --no-clipboard)",
+      "Bash(node *)",
+      "mcp__playwright__browser_resize",
+      "Bash(npx playwright *)",
+      "Bash(Get-Content \"d:\\\\Claude\\\\velasca-clone\\\\Ai Guideline\\\\the style.txt\")",
+      "Bash(Select-String -Pattern \"announcement\" -Context 0,5)",
+      "Bash(Select-Object -First 30)",
+      "PowerShell(Get-ChildItem \"d:\\\\Claude\\\\velasca-clone\" | Where-Object { $_.Name -ne 'node_modules' } | Select-Object Name, PSIsContainer)",
+      "Read(//d/Claude/**)",
+      "PowerShell(npx playwright --version 2>&1)",
+      "PowerShell(Get-ChildItem \"d:\\\\Claude\\\\velasca-clone\\\\public\\\\images\\\\www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8\\\\\" -File | ForEach-Object { $_.Name })",
+      "Bash(Get-ChildItem -Path \"d:\\\\Claude\\\\velasca-clone\" -Recurse -File)",
+      "Bash(Select-Object FullName)",
+      "Bash(Format-Table -AutoSize)"
+    ]
+  }
+}
