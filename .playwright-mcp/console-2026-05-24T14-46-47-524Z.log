@@ -1,0 +1,2 @@
+[      34ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost:8765/js/carousel-custom.js:40:11

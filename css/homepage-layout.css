@@ -1,0 +1,168 @@
+/* ═══════════════════════════════════════
+   HOMEPAGE STRUCTURE — audit + reference layout
+   Exact section heights, gutters, grid rhythm
+═══════════════════════════════════════ */
+
+.template-index {
+  --hp-gutter-desktop: 30px;
+  --hp-gutter-mobile: 12px;
+  --hp-section-pad-desktop: 60px;
+  --hp-section-pad-mobile: 45px;
+  --hp-grid-gap: 10px;
+  --hp-card-img-height: 560px;
+  --hp-card-label-gap: 8px;
+  --hp-card-label-margin-top: 20px;
+  --vertical-image-label-gap: 15px;
+  --hp-card-link-margin-bottom: 35px;
+}
+
+.template-index .content {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── §1 Hero — full bleed 882 / 570 ───────────────── */
+.template-index .hero-section {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+/* ── §2 Category grid — padding 60×30, ~780px block ─ */
+.template-index .category-grid {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: var(--hp-section-pad-mobile) var(--hp-gutter-mobile);
+  gap: var(--hp-grid-gap);
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .template-index .category-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: var(--hp-section-pad-desktop) var(--hp-gutter-desktop);
+    align-content: start;
+  }
+}
+
+/* ── §4 Carousel — full bleed, aspect-driven height (live) ─ */
+.template-index .editorial-carousel {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  height: auto;
+}
+
+/* ── §5 Get inspired — ~1533px desktop block ──────── */
+.template-index .get-inspired-section {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: var(--hp-section-pad-mobile) var(--hp-gutter-mobile);
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .template-index .get-inspired-section {
+    padding: var(--hp-section-pad-desktop) var(--hp-gutter-desktop);
+  }
+}
+
+.template-index .get-inspired-heading {
+  margin: 0 0 20px;
+}
+
+.template-index .get-inspired-grid {
+  margin-top: 0;
+  gap: var(--hp-grid-gap);
+}
+
+@media (min-width: 768px) {
+  .template-index .get-inspired-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* ── Cards — 560px image, 35px link margin ────────── */
+.template-index .category-card,
+.template-index .inspired-card {
+  margin: 0 0 var(--hp-card-link-margin-bottom);
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .template-index .category-grid .category-card {
+    margin-bottom: var(--hp-card-link-margin-bottom);
+  }
+
+  .template-index .get-inspired-grid .inspired-card:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+  }
+}
+
+.template-index .vertical-image {
+  width: 100%;
+}
+
+.template-index .vertical-image + .category-card__label-row,
+.template-index .vertical-image + .inspired-card__label-row {
+  margin-top: var(--vertical-image-label-gap);
+  gap: var(--hp-card-label-gap);
+  min-height: 0;
+}
+
+@media (max-width: 767px) {
+  .template-index .get-inspired-grid .inspired-card:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* ── §6 Editorial promos — 700 / 560 full bleed ───── */
+.template-index .editorial-section {
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.template-index .editorial-section--about {
+  margin-bottom: 20px;
+}
+
+/* ── §7 Newsletter — full-bleed background image ──── */
+.template-index .newsletter-section {
+  width: 100%;
+  max-width: none;
+}
+
+/* ── §8 Footer — full bleed on homepage ───────────── */
+.template-index .site-footer {
+  width: 100%;
+}
+
+/* Carousel uses custom chevrons — see component-carousel.css */
+
+/* ── Header overlays hero (live site) ─────────────── */
+.template-index .site-header {
+  width: 100%;
+}
+
+.template-index .hero-section {
+  margin-top: 0;
+}
+
+/* Hero CTA — 300×38 centered on slide */
+.template-index .hero-slide__cta {
+  min-width: 300px;
+  width: max-content;
+  max-width: calc(100% - 96px);
+}
+
+/* Editorial card — reference white box */
+.template-index .editorial-card {
+  padding: 48px 84px;
+  box-sizing: border-box;
+}

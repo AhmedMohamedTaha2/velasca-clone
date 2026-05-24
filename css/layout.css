@@ -1,0 +1,65 @@
+/* ═══════════════════════════════════════
+   LAYOUT & CONTAINER SYSTEM
+   (Pasted from SystemDesign.md Section 3)
+═══════════════════════════════════════ */
+
+/* ── PAGE-WIDE SECTIONS (hero, editorial) ─────────── */
+.section-full-bleed {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* ── STANDARD CONTENT CONTAINER ───────────────────── */
+.container,
+.page-width {
+  width: 100%;
+  max-width: var(--container-max-width); /* 1200px */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--gutter);           /* 15px */
+  padding-right: var(--gutter);
+}
+
+/* ── GRID CONTAINER ───────────────────────────────── */
+.grid-container {
+  width: 100%;
+  max-width: var(--grid-max-width);       /* 1250px */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ── SECTION RHYTHM ───────────────────────────────── */
+section,
+.shopify-section,
+.section-inner {
+  padding-top: var(--section-spacing);   /* 60px */
+  padding-bottom: var(--section-spacing);
+}
+
+/* Full-bleed sections — no vertical rhythm padding */
+.hero-section,
+.editorial-carousel,
+.editorial-section,
+.category-grid,
+.get-inspired-section,
+.newsletter-section,
+.site-footer,
+.section-editorial {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* ── BREAKPOINT SYSTEM ────────────────────────────── */
+/* Mobile-first. Hover states ONLY at 992px+ */
+
+/* SM — Tablet portrait */
+@media (min-width: 768px) { }
+
+/* MD — Hover-capable devices (CRITICAL) */
+/* ALL :hover styles MUST be inside this query */
+@media (min-width: 992px) {
+  a:hover { text-decoration: none; }
+}
+
+/* LG — Full desktop */
+@media (min-width: 1200px) { }

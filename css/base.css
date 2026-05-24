@@ -1,56 +1,109 @@
 /* ═══════════════════════════════════════
-   DESIGN TOKENS  (extracted from velasca.com)
+   DESIGN TOKENS & BASE STYLING
+   (Pasted verbatim from SystemDesign.md)
 ═══════════════════════════════════════ */
 :root {
-  /* Layout */
+  /* ─── LAYOUT ──────────────────────────────────────── */
   --container-max-width: 1280px;
   --grid-max-width: 1250px;
-  --announcement-h: 48px;
-  --header-h: 82px;          /* utility row ~41px + nav row ~41px */
-  --page-offset: calc(var(--announcement-h) + var(--header-h));
+  --site-max-width: 1280px;
+  --gutter: 30px;
+  --gutter-mobile: 12px;
+  --section-spacing: 60px;
+  --component-spacing: 30px;
+
+  /* ─── PROMOTIONAL BANNER ──────────────────────────── */
+  --promo-banner-height-desktop: 41px;
+  --promo-banner-height-mobile: 41px;
+  --desktop-promotional-banner-height: 41px;
+  --mobile-promotional-banner-height: 41px;
+  --help-menu-height: 90px;
+  --navbar-height: 58px;
+  --header-total-height: 189px;
+
+  /* ─── DRAWER (audit §2.1) ─────────────────────────── */
   --drawer-width: 39rem;
 
-  /* Swiper brand override */
-  --swiper-theme-color: #185674;
+  /* ─── BRAND PRIMARY ───────────────────────────────── */
+  --color-primary: #185674; /* Deep teal — nav, CTA fill, headings */
+  --color-primary-light: #427892; /* Hover/active tint (+15% lighter) */
 
-  /* Brand colours */
-  --color-primary:        #185674;
-  --color-primary-light:  #427892;
-  --color-accent:         #b0684f;
+  /* ─── ACCENT ──────────────────────────────────────── */
+  --color-accent: #b0684f; /* Terracotta — links, borders, error */
 
-  /* Neutrals */
-  --color-bg:             #ffffff;
-  --color-bg-warm:        #F9F8F7;
-  --color-bg-light:       #f5f5f5;
-  --color-text:           #313332;
-  --color-text-inv:       #ffffff;
-  --color-text-muted:     #777777;
-  --color-text-sub:       #8B959A;
-  --color-border:         #e3e3e3;
-  --color-border-mid:     #b9bbbb;
-  --color-neutral-300:    #D9D9D9;
-  --color-footer-bg:      #313332;
+  /* ─── SURFACES ────────────────────────────────────── */
+  --color-bg: #ffffff; /* Page base — NEVER tinted */
+  --color-bg-warm: #f9f8f7; /* Product cards, review widget */
+  --color-bg-light: #f5f5f5; /* Alternating sections, inputs */
+  --color-bg-cream: #f7e7d4; /* Newsletter popup, campaigns */
+  --color-bg-button-light: #f2f2f2;
 
-  /* Skeleton */
-  --color-skel-base:      #5f889c;
-  --color-skel-shine:     #a8bdc7;
+  /* ─── FOOTER ──────────────────────────────────────── */
+  --color-bg-footer: #313332; /* Footer main — warm near-black */
+  --color-bg-footer-sub: #454746; /* Footer sub-sections */
 
-  /* Typography */
-  --font-primary:  "Jost", serif;
-  --font-display:  "Jomolhari", serif;
+  /* ─── TEXT ────────────────────────────────────────── */
+  --color-text: #313332; /* Primary body text */
+  --color-text-inverted: #ffffff; /* On dark BG */
+  --color-text-muted: #777777; /* Captions, metadata */
+  --color-text-subdued: #8b959a; /* Secondary labels */
+  --color-text-placeholder: #a4abad;
 
-  /* Transitions */
-  --ease-micro:   all 0.2s linear;
-  --ease-slide:   transform 0.5s cubic-bezier(0.32, 0.72, 0, 1);
+  /* ─── BORDERS ─────────────────────────────────────── */
+  --color-border: #e3e3e3; /* Light UI borders */
+  --color-border-dark: #b9bbbb; /* Heavier dividers */
+  --color-neutral-300: #d9d9d9;
+
+  /* ─── ART DIRECTION (photography only) ───────────── */
+  --color-leather: #c59872;
+  --color-tobacco: #685646;
+  --color-slate: #354551;
+
+  /* ─── SKELETON LOADING ────────────────────────────── */
+  --color-skeleton-base: #5f889c;
+  --color-skeleton-shine: #a8bdc7;
+
+  /* ─── TYPOGRAPHY ──────────────────────────────────── */
+  --font-primary: "Jost", serif;
+  --font-display: Jomolhari, serif;
+
+  /* ─── TRANSITIONS ─────────────────────────────────── */
+  --transition-micro: all 0.2s linear;
+  --transition-overlay: all 0.4s ease-in-out;
+  --transition-drawer: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1);
+
+  /* ─── LIVE SITE ALIASES (audit §3–4) ──────────────── */
+  --theme-font-family: "Jost", serif;
+  --theme-secondary-font-family: Jomolhari, serif;
+  --theme-primary-color: #185674;
+  --theme-primary-light: #427892;
+  --theme-accent-color: #b0684f;
+  --theme-primary-text-color: #313332;
+  --theme-text-color: #313332;
+  --theme-secondary-text-color: #ffffff;
+  --theme-background-color: #ffffff;
+  --theme-box-background-color: #f9f8f7;
+  --theme-light-color: #f5f5f5;
+  --theme-border-color: #e3e3e3;
+  --theme-secondary-color: #b9bbbb;
+  --theme-tertiary-color: #777777;
+  --theme-neutral500-color: #8b959a;
+  --theme-neutral300-color: #d9d9d9;
 }
 
 /* ═══════════════════════════════════════
-   RESET
+   RESET & DEFAULTS
 ═══════════════════════════════════════ */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -65,32 +118,208 @@ body {
   min-height: 100vh;
 }
 
-img { display: block; max-width: 100%; height: auto; }
-a { color: inherit; text-decoration: none; transition: var(--ease-micro); }
-ul, ol { list-style: none; }
-button { border: none; background: none; cursor: pointer; font-family: inherit; }
-input, textarea, select { font-family: inherit; border-radius: 0; }
-
-/* ═══════════════════════════════════════
-   TYPE SCALE  (per design analysis)
-═══════════════════════════════════════ */
-h1 { font-family: var(--font-primary);  font-size: 50px; font-weight: 400; line-height: 55px;   letter-spacing: normal; }
-h2 { font-family: var(--font-display);  font-size: 50px; font-weight: 400; line-height: 62.5px; letter-spacing: -3px; color: var(--color-primary); }
-h3 { font-family: var(--font-primary);  font-size: 20px; font-weight: 500; line-height: 25px;   letter-spacing: 2px; text-transform: uppercase; }
-p  { margin: 0; }
-
-/* Responsive heading scale */
-@media (max-width: 767px) {
-  h1 { font-size: 32px; line-height: 38px; }
-  h2 { font-size: 32px; line-height: 40px; letter-spacing: -1px; }
-  h3 { font-size: 16px; }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  color: var(--color-text);
+  text-decoration: none;
+  transition: var(--transition-micro);
 }
 
-/* ═══════════════════════════════════════
-   UTILITY
-═══════════════════════════════════════ */
+@media (min-width: 992px) {
+  a:focus,
+  a:hover,
+  a:visited {
+    text-decoration: none;
+  }
+}
+
+/* Colored underline on hover — use theme primary color */
+a:hover,
+a:focus {
+  color: var(--theme-primary-color);
+  text-decoration: underline;
+  text-decoration-color: var(--theme-primary-color);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+.a-default {
+  cursor: pointer;
+  color: var(--color-accent);
+}
+
+@media (min-width: 992px) {
+  .a-default:hover {
+    color: var(--color-accent);
+    text-decoration: underline;
+  }
+}
+ul,
+ol {
+  list-style: none;
+}
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+input,
+textarea,
+select {
+  font-family: inherit;
+  border-radius: 0;
+  outline: none;
+}
+
+/* ── HEADINGS (Jost) ───────────────────────────────── */
+h1 {
+  font-family: var(--font-primary);
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.1;
+  color: var(--color-text);
+  margin: 0;
+}
+h2 {
+  font-family: var(--font-primary);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--color-text);
+  margin: 0;
+}
+h3 {
+  font-family: var(--font-primary);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--color-text);
+  margin: 0;
+}
+h4 {
+  font-family: var(--font-primary);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--color-text);
+  margin: 0;
+}
+h5 {
+  font-family: var(--font-primary);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-text);
+  margin: 0;
+}
+
+/* ── EDITORIAL DISPLAY (Jomolhari — 3 sections MAX) ── */
+.heading-display {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 400;
+  color: var(--color-primary);
+  font-style: normal;
+}
+
+/* ── BODY ──────────────────────────────────────────── */
+body,
+p,
+span,
+a {
+  font-family: var(--font-primary);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+/* ── UTILITY CLASSES ───────────────────────────────── */
+.text-xl {
+  font-size: 20px;
+}
+.text-lg {
+  font-size: 18px;
+}
+.text-md {
+  font-size: 16px;
+}
+.text-base {
+  font-size: 14px;
+}
+.text-sm {
+  font-size: 12px;
+}
+.text-xs {
+  font-size: 9px;
+} /* Category labels ONLY */
+.text-xxs {
+  font-size: 8px;
+}
+
+.font-light {
+  font-weight: 300;
+}
+.font-regular {
+  font-weight: 400;
+}
+.font-medium {
+  font-weight: 500;
+} /* MAXIMUM in system */
+
 .sr-only {
-  position: absolute; width: 1px; height: 1px;
-  padding: 0; margin: -1px; overflow: hidden;
-  clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Skip links (audit §9) */
+.skip-links {
+  position: relative;
+  z-index: 10000;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 8px;
+  padding: 8px 16px;
+  background: var(--color-bg);
+  color: var(--color-primary);
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid var(--color-primary);
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  left: 8px;
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* ── MOBILE OVERRIDES (section headings only — not UI labels) ── */
+@media (max-width: 767px) {
+  .get-inspired-heading {
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -2px;
+  }
+
+  .editorial-card__headline,
+  .newsletter-heading {
+    font-size: 28px;
+    line-height: 35px;
+  }
 }

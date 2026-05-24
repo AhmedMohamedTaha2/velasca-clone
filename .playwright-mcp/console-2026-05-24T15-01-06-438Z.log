@@ -1,0 +1,201 @@
+[     928ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A104%2C%22args%22%3A%5B%22ApolloClient%22%2C%22uri%22%2C%22Please%20initialize%20an%20instance%20of%20%60HttpLink%60%20with%20%60uri%60%20instead.%22%5D%7D @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[     929ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A104%2C%22args%22%3A%5B%22ApolloClient%22%2C%22headers%22%2C%22Please%20initialize%20an%20instance%20of%20%60HttpLink%60%20with%20%60headers%60%20instead.%22%5D%7D @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[     929ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A17%2C%22args%22%3A%5B%5D%7D @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[     930ms] [LOG] [TABOOLA DEBUG SANDBOXED] - Extension Loaded @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3427467651@256e0f107bfa102eabd3cbf632fd11d1.js:0
+[    1032ms] [INFO] k-web-pixel-version 1 @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3216834947@524f6c1ee37bacdca7657a665bdca589.js:0
+[    1355ms] [LOG] [TABOOLA DEBUG SANDBOXED] - page_view: Before [[page_view]] @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3427467651@256e0f107bfa102eabd3cbf632fd11d1.js:0
+[    1357ms] [LOG] [TABOOLA DEBUG SANDBOXED] - page_view: After [[page_view]] @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3427467651@256e0f107bfa102eabd3cbf632fd11d1.js:0
+[    1425ms] [ERROR] Error: Message: Couldn't fetch the Instagram feed. 
+ {
+  "message": "Network Error",
+  "name": "AxiosError",
+  "stack": "AxiosError: Network Error\n    at m.onerror (https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:276:143085)\n    at XMLHttpRequest.nrWrapper (https://www.velasca.com/:1217:17691)\n    at ft.request (https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:276:151159)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "method": "get",
+    "url": "https://d3ejra0xbg20rg.cloudfront.net/instagram/media?shop=us-velasca.myshopify.com&resource=default",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_NETWORK"
+} K @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:148
+[    1425ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://d3ejra0xbg20rg.cloudfront.net/instagram/media?shop=us-velasca.myshopify.com&resource=default:0
+[    1445ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[    1514ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[    1626ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[    1777ms] [LOG] [TABOOLA DEBUG] - Loading tfa.js @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:234
+[    1778ms] [LOG] [TABOOLA DEBUG] - tfa.js Loaded successfully @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:244
+[    1778ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - Before [[page_view]] - before_tfa @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[    1782ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - After [[page_view]] - after_tfa @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[    1783ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - Before [[page_view]] http method - before_http @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[    1784ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - After [[page_view]] http method - after_http @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[    1935ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[   10934ms] [LOG] Download the Apollo DevTools for a better development experience: %s https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[  157572ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  186011ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  200168ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  238252ms] [ERROR] WebSocket connection to 'wss://widget-mediator.zopim.com/s/W/ws/PN+YScJIAiPcuW+U/c/1779635092663' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED @ https://static.zdassets.com/web_widget/classic/latest/web-widget-chat-sdk-07b7b33.js:1
+[  238252ms] [ERROR] WebSocket connection to 'wss://widget-mediator.zopim.com/s/W/ws/PN+YScJIAiPcuW+U/c/1779635102703' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED @ https://static.zdassets.com/web_widget/classic/latest/web-widget-chat-sdk-07b7b33.js:1
+[  243255ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bam.eu01.nr-data.net/events/1/NRJS-f085117791fa30955df?a=538678497&sa=1&v=1.278.3&t=Unnamed%20Transaction&rst=212021&ck=0&s=609e1e4ca9407a2c&ref=https://www.velasca.com/&ptid=8689e24af653f612:0
+[  246258ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  249834ms] [ERROR] Failed to load resource: net::ERR_ADDRESS_UNREACHABLE @ https://e.clarity.ms/collect:0
+[  249838ms] [ERROR] Failed to load resource: net::ERR_ADDRESS_UNREACHABLE @ https://e.clarity.ms/collect:0
+[  249840ms] [ERROR] Failed to load resource: net::ERR_ADDRESS_UNREACHABLE @ https://e.clarity.ms/collect:0
+[  249840ms] [ERROR] Failed to load resource: net::ERR_ADDRESS_UNREACHABLE @ https://e.clarity.ms/collect:0
+[  249858ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bam.eu01.nr-data.net/jserrors/1/NRJS-f085117791fa30955df?a=538678497&sa=1&v=1.278.3&t=Unnamed%20Transaction&rst=212020&ck=0&s=609e1e4ca9407a2c&ref=https://www.velasca.com/&ptid=8689e24af653f612:0
+[  251935ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://widget-mediator.zopim.com/s/W/xdds/PN+YScJIAiPcuW+U/c/1779635117323:0
+[  254947ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  290906ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  296027ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://bam.eu01.nr-data.net/jserrors/1/NRJS-f085117791fa30955df?a=538678497&sa=1&v=1.278.3&t=Unnamed%20Transaction&rst=272035&ck=0&s=609e1e4ca9407a2c&ref=https://www.velasca.com/&ptid=8689e24af653f612:0
+[  299029ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  308684ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  323615ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  335154ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  338623ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  353636ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  365624ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  368791ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  383674ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  388876ms] [WARNING] The resource https://www.velasca.com/cdn/shop/t/13/assets/stamped-text.css?v=38410641173842691021752497475 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.velasca.com/:0
+[  393142ms] [LOG] [TABOOLA DEBUG SANDBOXED] - Extension Loaded @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3427467651@256e0f107bfa102eabd3cbf632fd11d1.js:0
+[  393195ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A104%2C%22args%22%3A%5B%22ApolloClient%22%2C%22uri%22%2C%22Please%20initialize%20an%20instance%20of%20%60HttpLink%60%20with%20%60uri%60%20instead.%22%5D%7D @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[  393196ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A104%2C%22args%22%3A%5B%22ApolloClient%22%2C%22headers%22%2C%22Please%20initialize%20an%20instance%20of%20%60HttpLink%60%20with%20%60headers%60%20instead.%22%5D%7D @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[  393196ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A17%2C%22args%22%3A%5B%5D%7D @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[  393281ms] [INFO] k-web-pixel-version 1 @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3216834947@524f6c1ee37bacdca7657a665bdca589.js:0
+[  393519ms] [LOG] [TABOOLA DEBUG SANDBOXED] - page_view: Before [[page_view]] @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3427467651@256e0f107bfa102eabd3cbf632fd11d1.js:0
+[  393525ms] [LOG] [TABOOLA DEBUG SANDBOXED] - page_view: After [[page_view]] @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3427467651@256e0f107bfa102eabd3cbf632fd11d1.js:0
+[  393596ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[  393624ms] [ERROR] Error: Message: Couldn't fetch the Instagram feed. 
+ {
+  "message": "Network Error",
+  "name": "AxiosError",
+  "stack": "AxiosError: Network Error\n    at m.onerror (https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:276:143085)\n    at XMLHttpRequest.nrWrapper (https://www.velasca.com/:1217:17691)\n    at ft.request (https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:276:151159)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "method": "get",
+    "url": "https://d3ejra0xbg20rg.cloudfront.net/instagram/media?shop=us-velasca.myshopify.com&resource=default",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_NETWORK"
+} K @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:148
+[  393624ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[  393624ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://d3ejra0xbg20rg.cloudfront.net/instagram/media?shop=us-velasca.myshopify.com&resource=default:0
+[  393689ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[  393777ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[  393944ms] [LOG] [TABOOLA DEBUG] - Loading tfa.js @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:234
+[  393944ms] [LOG] [TABOOLA DEBUG] - tfa.js Loaded successfully @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:244
+[  393944ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - Before [[page_view]] - before_tfa @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[  393947ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - After [[page_view]] - after_tfa @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[  393947ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - Before [[page_view]] http method - before_http @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[  393948ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - After [[page_view]] http method - after_http @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[  397641ms] [WARNING] [Meta Pixel] - Duplicate Pixel ID: 572564386172313. @ https://connect.facebook.net/en_US/fbevents.js:181
+[  403200ms] [LOG] Download the Apollo DevTools for a better development experience: %s https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[  418042ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A104%2C%22args%22%3A%5B%22ApolloClient%22%2C%22uri%22%2C%22Please%20initialize%20an%20instance%20of%20%60HttpLink%60%20with%20%60uri%60%20instead.%22%5D%7D @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[  418042ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A104%2C%22args%22%3A%5B%22ApolloClient%22%2C%22headers%22%2C%22Please%20initialize%20an%20instance%20of%20%60HttpLink%60%20with%20%60headers%60%20instead.%22%5D%7D @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[  418042ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A17%2C%22args%22%3A%5B%5D%7D @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[  418288ms] [INFO] k-web-pixel-version 1 @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3216834947@524f6c1ee37bacdca7657a665bdca589.js:0
+[  418324ms] [LOG] [TABOOLA DEBUG SANDBOXED] - Extension Loaded @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3427467651@256e0f107bfa102eabd3cbf632fd11d1.js:0
+[  418382ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[  418529ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[  418655ms] [ERROR] Error: Message: Couldn't fetch the Instagram feed. 
+ {
+  "message": "Network Error",
+  "name": "AxiosError",
+  "stack": "AxiosError: Network Error\n    at m.onerror (https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:276:143085)\n    at XMLHttpRequest.nrWrapper (https://www.velasca.com/:1217:17691)\n    at ft.request (https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:276:151159)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "method": "get",
+    "url": "https://d3ejra0xbg20rg.cloudfront.net/instagram/media?shop=us-velasca.myshopify.com&resource=default",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_NETWORK"
+} K @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:148
+[  418655ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://d3ejra0xbg20rg.cloudfront.net/instagram/media?shop=us-velasca.myshopify.com&resource=default:0
+[  418663ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[  418716ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[  418824ms] [LOG] [TABOOLA DEBUG] - Loading tfa.js @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:234
+[  418824ms] [LOG] [TABOOLA DEBUG] - tfa.js Loaded successfully @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:244
+[  419111ms] [LOG] [TABOOLA DEBUG SANDBOXED] - page_view: Before [[page_view]] @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3427467651@256e0f107bfa102eabd3cbf632fd11d1.js:0
+[  419119ms] [LOG] [TABOOLA DEBUG] - Before [[page_view]] - before_tfa @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[  419122ms] [LOG] [TABOOLA DEBUG] - After [[page_view]] - after_tfa @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[  419123ms] [LOG] [TABOOLA DEBUG] - Before [[page_view]] http method - before_http @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[  419124ms] [LOG] [TABOOLA DEBUG] - After [[page_view]] http method - after_http @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[  419125ms] [LOG] [TABOOLA DEBUG SANDBOXED] - page_view: After [[page_view]] @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3427467651@256e0f107bfa102eabd3cbf632fd11d1.js:0
+[  428056ms] [LOG] Download the Apollo DevTools for a better development experience: %s https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[  493468ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://e.clarity.ms/collect:0
+[  501725ms] [ERROR] WebSocket connection to 'wss://widget-mediator.zopim.com/s/W/ws/ZoZOtZqKWZ8bhjiY/c/1779635358333' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED @ https://static.zdassets.com/web_widget/classic/latest/web-widget-chat-sdk-07b7b33.js:1
+[  501725ms] [ERROR] WebSocket connection to 'wss://widget-mediator.zopim.com/s/W/ws/ZoZOtZqKWZ8bhjiY/c/1779635367625' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED @ https://static.zdassets.com/web_widget/classic/latest/web-widget-chat-sdk-07b7b33.js:1
+[  508960ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://e.clarity.ms/collect:0
+[  508961ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://e.clarity.ms/collect:0
+[  550529ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://widget-mediator.zopim.com/s/W/xdds/ZoZOtZqKWZ8bhjiY/d/1779635416676/1779635416676%0A-1454.0347219413397%0A10%0A5%0Ad%0Anull:0

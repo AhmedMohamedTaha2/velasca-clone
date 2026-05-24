@@ -1,0 +1,184 @@
+/* ═══════════════════════════════════════
+   FOOTER — matched to velasca.com (Playwright audit)
+═══════════════════════════════════════ */
+
+.site-footer {
+  background-color: var(--color-bg-footer);
+  color: var(--color-text-inverted);
+  padding: 0;
+}
+
+.footer-inner {
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+@media (min-width: 768px) {
+  .footer-inner {
+    padding: 15px;
+  }
+}
+
+/* ── Breadcrumb ───────────────────────────────────── */
+.footer-breadcrumb {
+  padding: 0 17px 17px;
+}
+
+.footer-breadcrumb ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-breadcrumb a {
+  color: var(--color-text-inverted);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.5px;
+}
+
+@media (min-width: 992px) {
+  .footer-breadcrumb a:hover {
+    opacity: 0.7;
+  }
+}
+
+/* ── Dividers ─────────────────────────────────────── */
+.footer-rule {
+  border: none;
+  border-top: 1px solid var(--color-text-subdued);
+  margin: 0;
+  max-width: 1600px;
+  width: 100%;
+}
+
+/* ── Column grid ──────────────────────────────────── */
+.footer-cols {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 42px;
+  padding: 17px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .footer-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.footer-col {
+  max-width: 240px;
+}
+
+.footer-col__heading {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  color: var(--color-text-inverted);
+  margin: 0 0 12px;
+}
+
+.footer-col__body {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  color: var(--color-text-inverted);
+  margin: 0;
+  max-width: 240px;
+}
+
+.footer-col__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-col__list li {
+  padding: 5px 0;
+  margin: 0;
+}
+
+.footer-col__list a {
+  color: var(--color-text-inverted);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  display: inline;
+  transition: opacity 0.2s linear;
+}
+
+@media (min-width: 992px) {
+  .footer-col__list a:hover {
+    opacity: 0.7;
+  }
+}
+
+/* ── Payment methods ──────────────────────────────── */
+.footer-payments {
+  display: block;
+  width: 350px;
+  max-width: calc(100% - 10px);
+  height: auto;
+  margin: 30px auto;
+}
+
+/* ── Legal bar ────────────────────────────────────── */
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 80px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 17px;
+}
+
+@media (min-width: 768px) {
+  .footer-bottom {
+    padding: 0;
+  }
+}
+
+.footer-bottom__copy {
+  font-size: 14px;
+  line-height: 17.5px;
+  font-weight: 400;
+  color: var(--color-text-subdued);
+  margin: 20px 0 0;
+}
+
+.footer-bottom__links {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+  gap: 5px 10px;
+}
+
+@media (min-width: 768px) {
+  .footer-bottom__links {
+    gap: 5px 24px;
+  }
+}
+
+.footer-bottom__links a {
+  font-size: 14px;
+  line-height: 17.5px;
+  color: var(--color-text-subdued);
+  font-weight: 400;
+  transition: color 0.2s linear;
+}
+
+@media (min-width: 992px) {
+  .footer-bottom__links a:hover {
+    color: var(--color-text-inverted);
+  }
+}

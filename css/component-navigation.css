@@ -205,8 +205,10 @@
   transition: var(--transition-micro);
 }
 
-.mobile-menu a:hover {
-  color: var(--color-primary);
+@media (min-width: 992px) {
+  .mobile-menu a:hover {
+    color: var(--color-primary);
+  }
 }
 
 /* DROPDOWN MENU */

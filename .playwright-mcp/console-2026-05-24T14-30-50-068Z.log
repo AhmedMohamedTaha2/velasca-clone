@@ -1,0 +1,115 @@
+[    1655ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A104%2C%22args%22%3A%5B%22ApolloClient%22%2C%22uri%22%2C%22Please%20initialize%20an%20instance%20of%20%60HttpLink%60%20with%20%60uri%60%20instead.%22%5D%7D @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[    1655ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A104%2C%22args%22%3A%5B%22ApolloClient%22%2C%22headers%22%2C%22Please%20initialize%20an%20instance%20of%20%60HttpLink%60%20with%20%60headers%60%20instead.%22%5D%7D @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[    1655ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A17%2C%22args%22%3A%5B%5D%7D @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[    2405ms] [ERROR] Error: Message: Couldn't fetch the Instagram feed. 
+ {
+  "message": "Network Error",
+  "name": "AxiosError",
+  "stack": "AxiosError: Network Error\n    at m.onerror (https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:276:143085)\n    at XMLHttpRequest.nrWrapper (https://www.velasca.com/:1217:17691)\n    at ft.request (https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:276:151159)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "method": "get",
+    "url": "https://d3ejra0xbg20rg.cloudfront.net/instagram/media?shop=us-velasca.myshopify.com&resource=default",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_NETWORK"
+} K @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:148
+[    2405ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://d3ejra0xbg20rg.cloudfront.net/instagram/media?shop=us-velasca.myshopify.com&resource=default:0
+[    2413ms] [INFO] k-web-pixel-version 1 @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3216834947@524f6c1ee37bacdca7657a665bdca589.js:0
+[    2420ms] [LOG] [TABOOLA DEBUG SANDBOXED] - Extension Loaded @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3427467651@256e0f107bfa102eabd3cbf632fd11d1.js:0
+[    2730ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[    2840ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[    3017ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[    3325ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[    3558ms] [LOG] [TABOOLA DEBUG] - Loading tfa.js @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:234
+[    3558ms] [LOG] [TABOOLA DEBUG] - tfa.js Loaded successfully @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:244
+[    3559ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - Before [[page_view]] - before_tfa @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[    3564ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - After [[page_view]] - after_tfa @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[    3564ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - Before [[page_view]] http method - before_http @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[    3565ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - After [[page_view]] http method - after_http @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[   11663ms] [LOG] Download the Apollo DevTools for a better development experience: %s https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[   14046ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.99.0/core-en.js:0
+[   14052ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.99.0/core-en.js:0
+[   14058ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.99.0/core-en.js:0
+[  262892ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A104%2C%22args%22%3A%5B%22ApolloClient%22%2C%22uri%22%2C%22Please%20initialize%20an%20instance%20of%20%60HttpLink%60%20with%20%60uri%60%20instead.%22%5D%7D @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[  262892ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A104%2C%22args%22%3A%5B%22ApolloClient%22%2C%22headers%22%2C%22Please%20initialize%20an%20instance%20of%20%60HttpLink%60%20with%20%60headers%60%20instead.%22%5D%7D @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[  262892ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A17%2C%22args%22%3A%5B%5D%7D @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:401
+[  263061ms] [LOG] [TABOOLA DEBUG SANDBOXED] - Extension Loaded @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3427467651@256e0f107bfa102eabd3cbf632fd11d1.js:0
+[  263116ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[  263141ms] [INFO] k-web-pixel-version 1 @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3216834947@524f6c1ee37bacdca7657a665bdca589.js:0
+[  263427ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[  263473ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[  263625ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://www.velasca.com/cdn/wpm/s34f07b34w0f0599d7pa9bdc545m9e2c49ebm.js:0
+[  263630ms] [ERROR] Error: Message: Couldn't fetch the Instagram feed. 
+ {
+  "message": "Network Error",
+  "name": "AxiosError",
+  "stack": "AxiosError: Network Error\n    at m.onerror (https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:276:143085)\n    at XMLHttpRequest.nrWrapper (https://www.velasca.com/:1217:17691)\n    at ft.request (https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:276:151159)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "method": "get",
+    "url": "https://d3ejra0xbg20rg.cloudfront.net/instagram/media?shop=us-velasca.myshopify.com&resource=default",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_NETWORK"
+} K @ https://www.velasca.com/cdn/shop/t/13/assets/app.js?v=18621405127863844871775031821:148
+[  263630ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://d3ejra0xbg20rg.cloudfront.net/instagram/media?shop=us-velasca.myshopify.com&resource=default:0
+[  263803ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.99.0/core-en.js:0
+[  263835ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.99.0/core-en.js:0
+[  263845ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.99.0/core-en.js:0
+[  263902ms] [LOG] [TABOOLA DEBUG SANDBOXED] - page_view: Before [[page_view]] @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3427467651@256e0f107bfa102eabd3cbf632fd11d1.js:0
+[  264044ms] [LOG] [TABOOLA DEBUG SANDBOXED] - page_view: After [[page_view]] @ https://www.velasca.com/web-pixels/strict/app/web-pixel-3427467651@256e0f107bfa102eabd3cbf632fd11d1.js:0
+[  264057ms] [LOG] [TABOOLA DEBUG] - Loading tfa.js @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:234
+[  264057ms] [LOG] [TABOOLA DEBUG] - tfa.js Loaded successfully @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:244
+[  264057ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - Before [[page_view]] - before_tfa @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[  264061ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - After [[page_view]] - after_tfa @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[  264061ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - Before [[page_view]] http method - before_http @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34
+[  264062ms] [LOG] [TABOOLA DEBUG] - HEALTH LOG - After [[page_view]] http method - after_http @ https://spfy-pxl.archive-digger.com/assets/script_tag.js?shopId=us-velasca.myshopify.com&taboolaId=1522741&espd=true&ecav=true&eh=true&ess=true&ep=true&eatc=true&eprv=true&ecv=true&epv=true&esc=true&shop=us-velasca.myshopify.com:34

@@ -1,0 +1,149 @@
+{
+  "title": "Velasca | Italian style, made to last",
+  "metaDescription": "Men's shoes and clothing, artisanal quality and timeless style. Online and in store.",
+  "promotionalBanner": "Velasca Days: 20% off all shoes and clothing.",
+  "utility": [
+    {
+      "text": "United States",
+      "href": "/pages/shipping-country"
+    },
+    {
+      "text": "Join the community",
+      "href": null
+    },
+    {
+      "text": "Orders by: +1 929 384 6040",
+      "href": "tel:+1 929 384 6040"
+    },
+    {
+      "text": "WhatsApp",
+      "href": "https://wa.me/393389457733/?text=I%27d+like+to+have+some+information+on+https%3A%2F%2Fwww.velasca.com%2F"
+    }
+  ],
+  "navigation": [
+    {
+      "text": "Velasca",
+      "href": "/"
+    },
+    {
+      "text": "New Arrivals",
+      "href": "/collections/new-arrivals"
+    },
+    {
+      "text": "Shoes",
+      "href": "/collections/all-shoes"
+    },
+    {
+      "text": "Clothing",
+      "href": "/collections/all-clothing"
+    },
+    {
+      "text": "Accessories",
+      "href": "/collections/all-accessories"
+    },
+    {
+      "text": "Stores",
+      "href": "/pages/all-our-stores"
+    },
+    {
+      "text": "Archive",
+      "href": "/collections/outlet"
+    },
+    {
+      "text": "Woman",
+      "href": "https://www.velascawomen.com/?utm_source=SitoUomoHeader&utm_medium=referral"
+    }
+  ],
+  "hero": {
+    "cta": "Discover all products",
+    "href": "/collections/all-products"
+  },
+  "categoryTrio": [
+    "SHOES",
+    "CLOTHING",
+    "ACCESSORIES"
+  ],
+  "carousel": [
+    "shoes",
+    "clothing",
+    "P/E '25 Style Edit",
+    "Spring/Summer '26",
+    "S/S '26 in Sicily",
+    "Winter in the Dolomites",
+    "F/W ’25 in Cortina",
+    "Fall/Winter '25",
+    "By the Amalfi Coast",
+    "A trip to Apulia"
+  ],
+  "getInspired": {
+    "heading": "Get inspired",
+    "cards": [
+      "",
+      "Lace-ups",
+      "Knitwear",
+      "Tassel and Belgian loafers",
+      "Pants",
+      "Sneakers",
+      "Jackets"
+    ]
+  },
+  "editorialBlocks": {
+    "about": {
+      "eyebrow": "Artisanal craftmanship",
+      "headline": "Made in Italy"
+    },
+    "stores": {
+      "eyebrow": "Come visit us",
+      "headline": "In store"
+    },
+    "women": {
+      "eyebrow": "Velasca",
+      "headline": "For her"
+    }
+  },
+  "newsletter": {
+    "heading": "Let’s keep in touch",
+    "body": "News and inspiration straight to your inbox, every week. Let’s have some fun, with style.",
+    "placeholder": "Enter your email",
+    "consent": "By clicking you agree to Velasca's terms of"
+  },
+  "footer": {
+    "breadcrumb": "Home",
+    "columns": [
+      {
+        "heading": "WE'RE HERE FOR YOU",
+        "body": "Velasca was created to offer you artisanal quality shoes and clothing at a fair price. To be worn for a lifetime. We really care, so if you have any doubts, do get in touch.",
+        "links": []
+      },
+      {
+        "heading": "HELP",
+        "body": null,
+        "links": [
+          "Impact report",
+          "Accessibility Statement",
+          "Shipping and returns",
+          "Make a return",
+          "Mob: +1 929 384 6040",
+          "Email: hello@velasca.com"
+        ]
+      },
+      {
+        "heading": "ABOUT",
+        "body": null,
+        "links": [
+          "All our stores",
+          "About us",
+          "Work with us",
+          "Archive"
+        ]
+      }
+    ],
+    "copyright": "© All rights reserved: Velasca LLC, 250 Elizabeth Street, New York, NY 10012, United States",
+    "legal": [
+      "Terms & Conditions",
+      "Privacy Policy",
+      "Cookie Policy",
+      "Whistleblowing"
+    ]
+  }
+}

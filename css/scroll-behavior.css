@@ -1,0 +1,41 @@
+/* ═══════════════════════════════════════
+   SCROLL BEHAVIOR (velasca.com parity)
+═══════════════════════════════════════ */
+
+html {
+  scroll-behavior: auto;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Horizontal nav overflow when links exceed viewport */
+.navbar__center {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  scroll-behavior: auto;
+}
+
+.navbar__center::-webkit-scrollbar {
+  display: none;
+}
+
+/* Swiper carousel — transform slides, no native scroll snap */
+.editorial-carousel .swiper {
+  overflow: hidden;
+}
+
+.editorial-carousel .swiper-wrapper {
+  scroll-snap-type: none;
+}
+
+/* Category / inspired grids — no scroll snap */
+.category-grid,
+.get-inspired-grid {
+  scroll-snap-type: none;
+}
