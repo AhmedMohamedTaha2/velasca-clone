@@ -1,0 +1,293 @@
+{
+  "capturedAt": "2026-05-25T16:19:13.870Z",
+  "top": {
+    "stateLabel": "top (not scrolled)",
+    "scrollY": 0,
+    "navTop": 0,
+    "samples": [
+      {
+        "label": "New Arrivals",
+        "default": {
+          "label": "New Arrivals",
+          "hovered": false,
+          "entryColor": "rgb(66, 120, 146)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(49, 51, 50)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        },
+        "hover": {
+          "label": "New Arrivals",
+          "hovered": true,
+          "entryColor": "rgb(66, 120, 146)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(24, 86, 116)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        }
+      },
+      {
+        "label": "Shoes",
+        "default": {
+          "label": "Shoes",
+          "hovered": false,
+          "entryColor": "rgb(49, 51, 50)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(49, 51, 50)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        },
+        "hover": {
+          "label": "Shoes",
+          "hovered": true,
+          "entryColor": "rgb(24, 86, 116)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(24, 86, 116)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        }
+      },
+      {
+        "label": "Clothing",
+        "default": {
+          "label": "Clothing",
+          "hovered": false,
+          "entryColor": "rgb(49, 51, 50)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(49, 51, 50)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        },
+        "hover": {
+          "label": "Clothing",
+          "hovered": true,
+          "entryColor": "rgb(35, 71, 88)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(24, 86, 116)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        }
+      },
+      {
+        "label": "Accessories",
+        "default": {
+          "label": "Accessories",
+          "hovered": false,
+          "entryColor": "rgb(49, 51, 50)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(49, 51, 50)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        },
+        "hover": {
+          "label": "Accessories",
+          "hovered": true,
+          "entryColor": "rgb(39, 65, 77)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(24, 86, 116)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        }
+      },
+      {
+        "label": "Collections",
+        "default": {
+          "label": "Collections",
+          "hovered": false,
+          "entryColor": "rgb(49, 51, 50)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": "UnstyledListstyles__Ul-velasca__sc-1i73jtw-0 kCjFJE styles__CenterChunk-velasca_"
+        },
+        "hover": {
+          "label": "Collections",
+          "hovered": true,
+          "entryColor": "rgb(35, 71, 88)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": "UnstyledListstyles__Ul-velasca__sc-1i73jtw-0 kCjFJE styles__CenterChunk-velasca_"
+        }
+      },
+      {
+        "label": "Stores",
+        "default": {
+          "label": "Stores",
+          "hovered": false,
+          "entryColor": "rgb(49, 51, 50)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(49, 51, 50)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        },
+        "hover": {
+          "label": "Stores",
+          "hovered": true,
+          "entryColor": "rgb(35, 71, 88)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(24, 86, 116)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        }
+      }
+    ]
+  },
+  "scrolled": {
+    "stateLabel": "scrolled (~400px)",
+    "scrollY": 400,
+    "navTop": 0,
+    "samples": [
+      {
+        "label": "New Arrivals",
+        "default": {
+          "label": "New Arrivals",
+          "hovered": false,
+          "entryColor": "rgb(66, 120, 146)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(49, 51, 50)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        },
+        "hover": {
+          "label": "New Arrivals",
+          "hovered": true,
+          "entryColor": "rgb(66, 120, 146)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(24, 86, 116)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        }
+      },
+      {
+        "label": "Shoes",
+        "default": {
+          "label": "Shoes",
+          "hovered": false,
+          "entryColor": "rgb(49, 51, 50)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(49, 51, 50)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        },
+        "hover": {
+          "label": "Shoes",
+          "hovered": true,
+          "entryColor": "rgb(35, 71, 88)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(24, 86, 116)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        }
+      },
+      {
+        "label": "Clothing",
+        "default": {
+          "label": "Clothing",
+          "hovered": false,
+          "entryColor": "rgb(49, 51, 50)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(49, 51, 50)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        },
+        "hover": {
+          "label": "Clothing",
+          "hovered": true,
+          "entryColor": "rgb(35, 71, 88)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(24, 86, 116)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        }
+      },
+      {
+        "label": "Accessories",
+        "default": {
+          "label": "Accessories",
+          "hovered": false,
+          "entryColor": "rgb(49, 51, 50)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(49, 51, 50)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        },
+        "hover": {
+          "label": "Accessories",
+          "hovered": true,
+          "entryColor": "rgb(39, 65, 77)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(24, 86, 116)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        }
+      },
+      {
+        "label": "Collections",
+        "default": {
+          "label": "Collections",
+          "hovered": false,
+          "entryColor": "rgb(49, 51, 50)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": "UnstyledListstyles__Ul-velasca__sc-1i73jtw-0 kCjFJE styles__CenterChunk-velasca_"
+        },
+        "hover": {
+          "label": "Collections",
+          "hovered": true,
+          "entryColor": "rgb(39, 65, 77)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": "UnstyledListstyles__Ul-velasca__sc-1i73jtw-0 kCjFJE styles__CenterChunk-velasca_"
+        }
+      },
+      {
+        "label": "Stores",
+        "default": {
+          "label": "Stores",
+          "hovered": false,
+          "entryColor": "rgb(49, 51, 50)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(49, 51, 50)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        },
+        "hover": {
+          "label": "Stores",
+          "hovered": true,
+          "entryColor": "rgb(49, 51, 50)",
+          "entryTextDecoration": "none",
+          "entryOpacity": "1",
+          "linkColor": "rgb(24, 86, 116)",
+          "entryClass": "styles__MenuEntry-velasca__sc-qjgftd-0 styles__FirstLevelMenuTitle-velasca__sc-q",
+          "parentClasses": ""
+        }
+      }
+    ]
+  },
+  "menuOpenNav": {
+    "color": "rgb(24, 86, 116)",
+    "scrollY": 0
+  }
+}

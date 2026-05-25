@@ -1,0 +1,464 @@
+- generic [active] [ref=e1]:
+  - navigation "Skip links":
+    - link "Skip to content" [ref=e2] [cursor=pointer]:
+      - /url: "#skip-skip-to-content"
+    - link "Skip to footer" [ref=e3] [cursor=pointer]:
+      - /url: "#footer-react"
+  - banner:
+    - banner:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - text: "Velasca Days: 20% off all"
+                  - link "shoes" [ref=e4] [cursor=pointer]:
+                    - /url: /collections/all-shoes
+                  - text: and
+                  - link "clothing" [ref=e5] [cursor=pointer]:
+                    - /url: /collections/all-clothing
+                  - text: .
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - text: "Shipping country:"
+              - link "United States" [ref=e6] [cursor=pointer]:
+                - /url: /pages/shipping-country
+                - strong [ref=e7]: United States
+          - link "Velasca home" [ref=e8] [cursor=pointer]:
+            - /url: /
+            - heading [level=1] [ref=e9]:
+              - img [ref=e10]
+          - generic:
+            - link "Join the community" [ref=e25] [cursor=pointer]:
+              - /url: "#"
+            - 'link "Orders by: +1 929 384 6040" [ref=e26] [cursor=pointer]':
+              - /url: tel:+19293846040
+            - link "WhatsApp" [ref=e27] [cursor=pointer]:
+              - /url: https://wa.me/393389457733/?text=I'd%20like%20to%20have%20some%20information%20on%20https%3A%2F%2Fwww.velasca.com%2F
+      - navigation "Main navigation":
+        - generic:
+          - generic:
+            - generic:
+              - link "Velasca home" [ref=e28] [cursor=pointer]:
+                - /url: /
+                - img [ref=e29]
+              - button "Accessibility options" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "Search" [ref=e38] [cursor=pointer]:
+                - img [ref=e39]
+            - list:
+              - listitem:
+                - link "New Arrivals" [ref=e41] [cursor=pointer]:
+                  - /url: /collections/new-arrivals
+                  - generic "New Arrivals" [ref=e42]
+              - listitem:
+                - link "Shoes" [ref=e43] [cursor=pointer]:
+                  - /url: /collections/all-shoes
+                  - generic "Shoes" [ref=e44]
+              - listitem:
+                - link "Clothing" [ref=e45] [cursor=pointer]:
+                  - /url: /collections/all-clothing
+                  - generic "Clothing" [ref=e46]
+              - listitem:
+                - link "Accessories" [ref=e47] [cursor=pointer]:
+                  - /url: /collections/all-accessories
+                  - generic "Accessories" [ref=e48]
+              - listitem:
+                - generic "Collections" [ref=e49] [cursor=pointer]
+              - listitem:
+                - link "Stores" [ref=e50] [cursor=pointer]:
+                  - /url: /pages/all-our-stores
+                  - generic "Stores" [ref=e51]
+              - listitem:
+                - link "Archive" [ref=e52] [cursor=pointer]:
+                  - /url: /collections/outlet
+                  - generic "Archive" [ref=e53]
+              - listitem:
+                - link "Woman" [ref=e54] [cursor=pointer]:
+                  - /url: https://www.velascawomen.com/?utm_source=SitoUomoHeader&utm_medium=referral
+                  - generic "Woman" [ref=e55]
+            - generic:
+              - link "Account" [ref=e56] [cursor=pointer]:
+                - /url: /account
+                - img [ref=e57]
+              - button "Cart" [ref=e59] [cursor=pointer]:
+                - img [ref=e60]
+          - generic [ref=e300]:
+            - generic [ref=e301]:
+              - heading "New Products" [level=3] [ref=e303]:
+                - link "New Products" [ref=e304] [cursor=pointer]:
+                  - /url: /collections/new-products-shoes
+              - heading "All Shoes" [level=3] [ref=e306]:
+                - link "All Shoes" [ref=e307] [cursor=pointer]:
+                  - /url: /collections/all-shoes
+              - generic [ref=e308]:
+                - heading "Lace-Ups" [level=3] [ref=e309]:
+                  - link "Lace-Ups" [ref=e310] [cursor=pointer]:
+                    - /url: /collections/lace-ups
+                - list [ref=e311]:
+                  - listitem [ref=e312]:
+                    - link "Oxfords" [ref=e313] [cursor=pointer]:
+                      - /url: /collections/oxfords
+                  - listitem [ref=e314]:
+                    - link "Derbies" [ref=e315] [cursor=pointer]:
+                      - /url: /collections/derbies
+                  - listitem [ref=e316]:
+                    - link "Moc-toe derbies" [ref=e317] [cursor=pointer]:
+                      - /url: /collections/moc-toe-derbies
+                  - listitem [ref=e318]:
+                    - link "View all" [ref=e319] [cursor=pointer]:
+                      - /url: /collections/lace-ups
+              - heading "Monk-straps" [level=3] [ref=e321]:
+                - link "Monk-straps" [ref=e322] [cursor=pointer]:
+                  - /url: /collections/monk-straps
+            - generic [ref=e323]:
+              - generic [ref=e324]:
+                - heading "Loafers and Moccasins" [level=3] [ref=e325]:
+                  - link "Loafers and Moccasins" [ref=e326] [cursor=pointer]:
+                    - /url: /collections/loafers-and-moccasins
+                - list [ref=e327]:
+                  - listitem [ref=e328]:
+                    - link "Penny loafers" [ref=e329] [cursor=pointer]:
+                      - /url: /collections/penny-loafers
+                  - listitem [ref=e330]:
+                    - link "Tassel and Belgian" [ref=e331] [cursor=pointer]:
+                      - /url: /collections/tassel-and-belgian-loafers
+                  - listitem [ref=e332]:
+                    - link "Casual loafers" [ref=e333] [cursor=pointer]:
+                      - /url: /collections/casual-loafers
+                  - listitem [ref=e334]:
+                    - link "Driving moccasins" [ref=e335] [cursor=pointer]:
+                      - /url: /collections/driving-moccasins
+                  - listitem [ref=e336]:
+                    - link "View all" [ref=e337] [cursor=pointer]:
+                      - /url: /collections/loafers-and-moccasins
+              - generic [ref=e338]:
+                - heading "Boots and Ankle Boots" [level=3] [ref=e339]:
+                  - link "Boots and Ankle Boots" [ref=e340] [cursor=pointer]:
+                    - /url: /collections/boots-and-ankle-boots
+                - list [ref=e341]:
+                  - listitem [ref=e342]:
+                    - link "Boots" [ref=e343] [cursor=pointer]:
+                      - /url: /collections/boots
+                  - listitem [ref=e344]:
+                    - link "Chelsea boots" [ref=e345] [cursor=pointer]:
+                      - /url: /collections/chelsea-boots
+                  - listitem [ref=e346]:
+                    - link "Ankle boots" [ref=e347] [cursor=pointer]:
+                      - /url: /collections/ankle-boots
+                  - listitem [ref=e348]:
+                    - link "Hiking boots" [ref=e349] [cursor=pointer]:
+                      - /url: /collections/hiking-boots
+                  - listitem [ref=e350]:
+                    - link "View all" [ref=e351] [cursor=pointer]:
+                      - /url: /collections/boots-and-ankle-boots
+            - generic [ref=e353]:
+              - heading "Sneakers and Casual" [level=3] [ref=e354]:
+                - link "Sneakers and Casual" [ref=e355] [cursor=pointer]:
+                  - /url: /collections/casual-shoes
+              - list [ref=e356]:
+                - listitem [ref=e357]:
+                  - link "Sneakers" [ref=e358] [cursor=pointer]:
+                    - /url: /collections/sneakers
+                - listitem [ref=e359]:
+                  - link "Boat shoes" [ref=e360] [cursor=pointer]:
+                    - /url: /collections/boat-shoes
+                - listitem [ref=e361]:
+                  - link "Espadrilles" [ref=e362] [cursor=pointer]:
+                    - /url: /collections/espadrilles
+                - listitem [ref=e363]:
+                  - link "Furlanes" [ref=e364] [cursor=pointer]:
+                    - /url: /collections/furlanes
+                - listitem [ref=e365]:
+                  - link "Slides and Sandals" [ref=e366] [cursor=pointer]:
+                    - /url: /collections/slides-and-sandals
+                - listitem [ref=e367]:
+                  - link "View all" [ref=e368] [cursor=pointer]:
+                    - /url: /collections/casual-shoes
+            - generic [ref=e369]:
+              - generic [ref=e370]:
+                - heading "Highlights" [level=3] [ref=e371]:
+                  - link "Highlights" [ref=e372] [cursor=pointer]:
+                    - /url: /collections/goodyear
+                - list [ref=e373]:
+                  - listitem [ref=e374]:
+                    - link "Goodyear-welted" [ref=e375] [cursor=pointer]:
+                      - /url: /collections/goodyear
+                  - listitem [ref=e376]:
+                    - link "Shell Cordovan leather" [ref=e377] [cursor=pointer]:
+                      - /url: /collections/cordovan
+              - generic [ref=e378]:
+                - heading "Seasons" [level=3] [ref=e379]:
+                  - link "Seasons" [ref=e380] [cursor=pointer]:
+                    - /url: /collections/4-seasons-shoes
+                - list [ref=e381]:
+                  - listitem [ref=e382]:
+                    - link "4 Seasons" [ref=e383] [cursor=pointer]:
+                      - /url: /collections/4-seasons-shoes
+                  - listitem [ref=e384]:
+                    - link "Fall / Winter" [ref=e385] [cursor=pointer]:
+                      - /url: /collections/fall-winter-shoes
+                  - listitem [ref=e386]:
+                    - link "Spring / Summer" [ref=e387] [cursor=pointer]:
+                      - /url: /collections/spring-summer-shoes
+            - link "Shoes" [ref=e389] [cursor=pointer]:
+              - /url: /collections/all-shoes
+              - generic [ref=e391]: Shoes
+  - generic:
+    - generic:
+      - button: ×
+      - navigation:
+        - link:
+          - /url: /collections/new-arrivals
+          - text: New Arrivals
+        - link:
+          - /url: /collections/all-shoes
+          - text: Shoes
+        - link:
+          - /url: /collections/all-clothing
+          - text: Clothing
+        - link:
+          - /url: /collections/all-accessories
+          - text: Accessories
+        - link:
+          - /url: "#"
+          - text: Collections
+        - link:
+          - /url: /pages/all-our-stores
+          - text: Stores
+        - link:
+          - /url: /collections/outlet
+          - text: Archive
+        - link:
+          - /url: https://www.velascawomen.com/?utm_source=SitoUomoHeader&utm_medium=referral
+          - text: Woman
+  - main [ref=e62]:
+    - region "Hero banner" [ref=e64]:
+      - link "Discover all products" [ref=e68] [cursor=pointer]:
+        - /url: /collections/all-products
+        - generic [ref=e69]: Discover all products
+    - region "Shop by category" [ref=e70]:
+      - link "A man is holding a pair of dark brown suede Velasca lace-up shoes SHOES" [ref=e71] [cursor=pointer]:
+        - /url: /collections/all-shoes
+        - img "A man is holding a pair of dark brown suede Velasca lace-up shoes" [ref=e73]
+        - generic [ref=e74]:
+          - heading "SHOES" [level=3] [ref=e75]
+          - img [ref=e76]
+      - link "A man is wearing a dark grey Velasca suit and a bordeaux shirt CLOTHING" [ref=e78] [cursor=pointer]:
+        - /url: /collections/all-clothing
+        - img "A man is wearing a dark grey Velasca suit and a bordeaux shirt" [ref=e80]
+        - generic [ref=e81]:
+          - heading "CLOTHING" [level=3] [ref=e82]
+          - img [ref=e83]
+      - link "Close-up of a man wearing a light brown woven leather belt ACCESSORIES" [ref=e85] [cursor=pointer]:
+        - /url: /collections/all-accessories
+        - img "Close-up of a man wearing a light brown woven leather belt" [ref=e87]
+        - generic [ref=e88]:
+          - heading "ACCESSORIES" [level=3] [ref=e89]
+          - img [ref=e90]
+    - region "Editorial stories" [ref=e92]:
+      - paragraph [ref=e93]: prev next
+      - generic [ref=e94]:
+        - button "Previous slide" [ref=e95] [cursor=pointer]:
+          - img [ref=e96]
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - group "1 / 8" [ref=e100]:
+              - generic [ref=e101]:
+                - img "Inside a historic apartment with Sicilian majolica floors, a man is seated wearing a dark grey Velasca suit with a bordeaux shirt." [ref=e102]
+                - link "Spring/Summer '26" [ref=e104] [cursor=pointer]:
+                  - /url: /pages/spring-summer-2026
+                  - generic [ref=e105]: Spring/Summer '26
+            - group "2 / 8" [ref=e106]:
+              - generic [ref=e107]:
+                - img "A man in the Sicilian coastal countryside is wearing a beige ribbed double-breasted cardigan and a striped bowling-collar shirt." [ref=e108]
+                - link "S/S '26 in Sicily" [ref=e110] [cursor=pointer]:
+                  - /url: /pages/spring-summer-2026-in-sicily
+                  - generic [ref=e111]: S/S '26 in Sicily
+            - group "3 / 8" [ref=e112]:
+              - generic [ref=e113]:
+                - img "A man and a woman ride a wooden sled down a snowy valley. She wears an oversized Velasca Women shearling jacket, he wears an aviator shearling from the Velasca menswear collection." [ref=e114]
+                - link "Winter in the Dolomites" [ref=e116] [cursor=pointer]:
+                  - /url: /pages/winter-in-the-dolomites
+                  - generic [ref=e117]: Winter in the Dolomites
+            - group "4 / 8" [ref=e118]:
+              - generic [ref=e119]:
+                - img "A man wears a double-breasted Prince of Wales check wool blazer with a ribbed crewneck sweater, among mountain pastures with cows in the background." [ref=e120]
+                - link "F/W ’25 in Cortina" [ref=e122] [cursor=pointer]:
+                  - /url: /pages/fall-winter-2025-in-the-dolomites
+                  - generic [ref=e123]: F/W ’25 in Cortina
+            - group "5 / 8" [ref=e124]:
+              - generic [ref=e125]:
+                - img "A man wears a brown single-breasted wool coat paired with a beige crewneck sweater and a light blue shirt. Inside a mountain lodge with wooden furniture." [ref=e126]
+                - link "Fall/Winter '25" [ref=e128] [cursor=pointer]:
+                  - /url: /pages/fall-winter-2025
+                  - generic [ref=e129]: Fall/Winter '25
+            - group "6 / 8" [ref=e130]:
+              - link "By the Amalfi Coast" [ref=e133] [cursor=pointer]:
+                - /url: /pages/by-the-amalfi-coast
+                - generic [ref=e134]: By the Amalfi Coast
+            - group "7 / 8" [ref=e135]:
+              - link "A trip to Apulia" [ref=e138] [cursor=pointer]:
+                - /url: /pages/s-s-in-apulia
+                - generic [ref=e139]: A trip to Apulia
+            - group "8 / 8" [ref=e140]:
+              - link "P/E '25 Style Edit" [ref=e143] [cursor=pointer]:
+                - /url: /pages/s-s-2025-style-edit
+                - generic [ref=e144]: P/E '25 Style Edit
+          - tablist "Story pagination" [ref=e145]:
+            - button "Go to slide 1" [ref=e146] [cursor=pointer]
+            - button "Go to slide 2" [ref=e147] [cursor=pointer]
+            - button "Go to slide 3" [ref=e148] [cursor=pointer]
+            - button "Go to slide 4" [ref=e149] [cursor=pointer]
+            - button "Go to slide 5" [ref=e150] [cursor=pointer]
+            - button "Go to slide 6" [ref=e151] [cursor=pointer]
+            - button "Go to slide 7" [ref=e152] [cursor=pointer]
+            - button "Go to slide 8" [ref=e153] [cursor=pointer]
+        - button "Next slide" [ref=e154] [cursor=pointer]:
+          - img [ref=e155]
+    - region "Get inspired" [ref=e157]:
+      - heading "Get inspired" [level=2] [ref=e158]
+      - generic [ref=e159]:
+        - link "Lace-ups Lace-ups" [ref=e160] [cursor=pointer]:
+          - /url: /collections/lace-ups
+          - img "Lace-ups" [ref=e162]
+          - generic [ref=e163]:
+            - heading "Lace-ups" [level=3] [ref=e164]
+            - img [ref=e165]
+        - link "Knitwear Knitwear" [ref=e167] [cursor=pointer]:
+          - /url: /collections/knitwear
+          - img "Knitwear" [ref=e169]
+          - generic [ref=e170]:
+            - heading "Knitwear" [level=3] [ref=e171]
+            - img [ref=e172]
+        - link "Tassel and Belgian Loafers Tassel and Belgian Loafers" [ref=e174] [cursor=pointer]:
+          - /url: /collections/tassel-and-belgian-loafers
+          - img "Tassel and Belgian Loafers" [ref=e176]
+          - generic [ref=e177]:
+            - heading "Tassel and Belgian Loafers" [level=3] [ref=e178]
+            - img [ref=e179]
+        - link "Pants Pants" [ref=e181] [cursor=pointer]:
+          - /url: /collections/pants
+          - img "Pants" [ref=e183]
+          - generic [ref=e184]:
+            - heading "Pants" [level=3] [ref=e185]
+            - img [ref=e186]
+        - link "Sneakers Sneakers" [ref=e188] [cursor=pointer]:
+          - /url: /collections/sneakers
+          - img "Sneakers" [ref=e190]
+          - generic [ref=e191]:
+            - heading "Sneakers" [level=3] [ref=e192]
+            - img [ref=e193]
+        - link "Jackets Jackets" [ref=e195] [cursor=pointer]:
+          - /url: /collections/jackets
+          - img "Jackets" [ref=e197]
+          - generic [ref=e198]:
+            - heading "Jackets" [level=3] [ref=e199]
+            - img [ref=e200]
+    - region "Artisanal craftmanship" [ref=e202]:
+      - link "Artisanal craftmanship Made in Italy" [ref=e206] [cursor=pointer]:
+        - /url: /pages/about-us
+        - heading "Artisanal craftmanship" [level=3] [ref=e207]
+        - heading "Made in Italy" [level=2] [ref=e208]
+    - region "Visit us in store" [ref=e209]:
+      - link "Come visit us In store" [ref=e213] [cursor=pointer]:
+        - /url: /pages/all-our-stores
+        - heading "Come visit us" [level=3] [ref=e214]
+        - heading "In store" [level=2] [ref=e215]
+    - region "Velasca for her" [ref=e216]:
+      - generic [ref=e218]:
+        - img "Velasca For her" [ref=e221]
+        - link "Velasca For her" [ref=e222] [cursor=pointer]:
+          - /url: https://www.velascawomen.com/
+          - heading "Velasca" [level=3] [ref=e223]
+          - heading "For her" [level=2] [ref=e224]
+    - region "Newsletter signup" [ref=e225]:
+      - generic [ref=e227]:
+        - img "Velasca style" [ref=e230]
+        - generic [ref=e232]:
+          - heading "Let's keep in touch" [level=2] [ref=e233]
+          - paragraph [ref=e234]: News and inspiration straight to your inbox, every week. Let's have some fun, with style.
+          - generic [ref=e236]:
+            - textbox "Email address" [ref=e237]:
+              - /placeholder: Enter your email
+            - button "Subscribe" [ref=e239] [cursor=pointer]:
+              - img [ref=e240]
+          - generic [ref=e242]:
+            - paragraph [ref=e243]:
+              - text: By clicking you agree to Velasca's
+              - link "terms of" [ref=e244] [cursor=pointer]:
+                - /url: https://www.iubenda.com/terms-and-conditions/8014923
+            - paragraph [ref=e245]:
+              - link "service" [ref=e246] [cursor=pointer]:
+                - /url: https://www.iubenda.com/terms-and-conditions/8014923
+              - text: and consent to the processing of your data.
+  - contentinfo [ref=e247]:
+    - generic [ref=e248]:
+      - navigation "Breadcrumb" [ref=e249]:
+        - list [ref=e250]:
+          - listitem [ref=e251]:
+            - link "Home" [ref=e252] [cursor=pointer]:
+              - /url: /
+      - heading "Footer" [level=2] [ref=e253]
+      - separator [ref=e254]
+      - generic [ref=e255]:
+        - generic [ref=e256]:
+          - heading "We're here for you" [level=3] [ref=e257]
+          - paragraph [ref=e258]: Velasca was created to offer you artisanal quality shoes and clothing at a fair price. To be worn for a lifetime. We really care, so if you have any doubts, do get in touch.
+        - generic [ref=e259]:
+          - heading "Help" [level=3] [ref=e260]
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link "Impact report" [ref=e263] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/1627/0215/files/Relazione_d_impatto_2025.pdf
+            - listitem [ref=e264]:
+              - link "Accessibility Statement" [ref=e265] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/1627/0215/files/Accessibility_Statement_ENG.pdf?v=1751287989
+            - listitem [ref=e266]:
+              - link "Shipping and returns" [ref=e267] [cursor=pointer]:
+                - /url: /pages/shipping-and-return
+            - listitem [ref=e268]:
+              - link "Make a return" [ref=e269] [cursor=pointer]:
+                - /url: https://go.ifreturns.com/en/us-velasca
+            - listitem [ref=e270]:
+              - 'link "Mob: +1 929 384 6040" [ref=e271] [cursor=pointer]':
+                - /url: tel:+19293846040
+            - listitem [ref=e272]:
+              - 'link "Email: hello@velasca.com" [ref=e273] [cursor=pointer]':
+                - /url: mailto:hello@velasca.com
+        - generic [ref=e274]:
+          - heading "About" [level=3] [ref=e275]
+          - list [ref=e276]:
+            - listitem [ref=e277]:
+              - link "All our stores" [ref=e278] [cursor=pointer]:
+                - /url: /pages/all-our-stores
+            - listitem [ref=e279]:
+              - link "About us" [ref=e280] [cursor=pointer]:
+                - /url: /pages/about-us
+            - listitem [ref=e281]:
+              - link "Work with us" [ref=e282] [cursor=pointer]:
+                - /url: https://velasca.workable.com/
+            - listitem [ref=e283]:
+              - link "Archive" [ref=e284] [cursor=pointer]:
+                - /url: /collections/outlet
+      - img "Accepted payments icon"
+      - separator [ref=e285]
+      - generic [ref=e286]:
+        - paragraph [ref=e287]: "© All rights reserved: Velasca LLC, 250 Elizabeth Street, New York, NY 10012, United States"
+        - list [ref=e288]:
+          - listitem [ref=e289]:
+            - link "Terms & Conditions" [ref=e290] [cursor=pointer]:
+              - /url: /pages/terms-and-conditions
+          - listitem [ref=e291]:
+            - link "Privacy Policy" [ref=e292] [cursor=pointer]:
+              - /url: /pages/privacy
+          - listitem [ref=e293]:
+            - link "Cookie Policy" [ref=e294] [cursor=pointer]:
+              - /url: /pages/cookie-policy
+          - listitem [ref=e295]:
+            - link "Whistleblowing" [ref=e296] [cursor=pointer]:
+              - /url: /pages/whistleblowing

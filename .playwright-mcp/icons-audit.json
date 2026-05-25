@@ -1,0 +1,340 @@
+{
+  "imgs": [
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/mar_2026_visual_top_hp_total_look_mobile.jpg?v=1773654465&width=30",
+      "alt": "",
+      "w": 1665,
+      "h": 891,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 jtvGZw PageIntrostyles__Picture-velasca__sc-r1t76v-1"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/mar2026_blocco_rimando_scarpe.jpg?v=1773654471&width=30",
+      "alt": "A man is holding a pair of dark brown suede Velasca penny loafers.",
+      "w": 528,
+      "h": 660,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CategoriesGridstyle__Image-velasca__sc-wo1twx-3"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/mar2026_blocco_rimando_abbigliamento.jpg?v=1773654472&width=30",
+      "alt": "A man is wearing a dark grey Velasca suit and a bordeaux shirt.",
+      "w": 528,
+      "h": 660,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CategoriesGridstyle__Image-velasca__sc-wo1twx-3"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/mar2026_blocco_rimando_accessori.jpg?v=1773654462&width=30",
+      "alt": "Close-up of a man wearing a light brown woven leather Velasca belt.",
+      "w": 528,
+      "h": 660,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CategoriesGridstyle__Image-velasca__sc-wo1twx-3"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/lug_2025_rimando_lookbook_pe25.jpg?v=1753785789&width=30",
+      "alt": "",
+      "w": 1665,
+      "h": 714,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CollectionFocusBlockstyles__Image-velasca__sc-4d26d-7"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/mar2026_rimando_lookbook_pe26.jpg?v=1773654472&width=30",
+      "alt": "Inside a historic apartment with Sicilian majolica floors, a man is seated wearing a dark grey Velasca suit with a bordeaux shirt.",
+      "w": 1665,
+      "h": 714,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CollectionFocusBlockstyles__Image-velasca__sc-4d26d-7"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/mar2026_rimando_campagna_pe26_sicilia.jpg?v=1773654467&width=30",
+      "alt": "A man in the Sicilian coastal countryside is wearing a beige ribbed double-breasted cardigan and a striped bowling-collar shirt.",
+      "w": 1665,
+      "h": 714,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CollectionFocusBlockstyles__Image-velasca__sc-4d26d-7"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/dic_2025_blocco_rimando_inverno_sulle_dolomiti.jpg?v=1765964143&width=30",
+      "alt": "A man and a woman ride a wooden sled down a snowy valley. She wears an oversized Velasca Women shearling jacket, he wears an aviator shearling from the Velasca menswear collection.",
+      "w": 1665,
+      "h": 714,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CollectionFocusBlockstyles__Image-velasca__sc-4d26d-7"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/sett2025_rimando_campagna_ai25_dolomiti.jpg?v=1758198227&width=30",
+      "alt": "A man wears a double-breasted Prince of Wales check wool blazer with a ribbed crewneck sweater, among mountain pastures with cows in the background.",
+      "w": 1665,
+      "h": 714,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CollectionFocusBlockstyles__Image-velasca__sc-4d26d-7"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/sett_2025_rimando_lookbook_ai25.jpg?v=1758198418&width=30",
+      "alt": "A man wears a brown single-breasted wool coat paired with a beige crewneck sweater and a light blue shirt. Inside a mountain lodge with wooden furniture.",
+      "w": 1665,
+      "h": 714,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CollectionFocusBlockstyles__Image-velasca__sc-4d26d-7"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/lug_2025_rimando_estate_in_costiera.jpg?v=1753785755&width=30",
+      "alt": "",
+      "w": 1665,
+      "h": 714,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CollectionFocusBlockstyles__Image-velasca__sc-4d26d-7"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/lug_2025_rimando_campagna_pe25_puglia.jpg?v=1753785770&width=30",
+      "alt": "",
+      "w": 1665,
+      "h": 714,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CollectionFocusBlockstyles__Image-velasca__sc-4d26d-7"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/lug_2025_rimando_lookbook_pe25.jpg?v=1753785789&width=30",
+      "alt": "",
+      "w": 1665,
+      "h": 714,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CollectionFocusBlockstyles__Image-velasca__sc-4d26d-7"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/mar2026_rimando_lookbook_pe26.jpg?v=1773654472&width=30",
+      "alt": "Inside a historic apartment with Sicilian majolica floors, a man is seated wearing a dark grey Velasca suit with a bordeaux shirt.",
+      "w": 1665,
+      "h": 714,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CollectionFocusBlockstyles__Image-velasca__sc-4d26d-7"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/mar_2026_blocco_1a_stringate_cumenda_nl.jpg?v=1773654463&width=30",
+      "alt": "",
+      "w": 528,
+      "h": 660,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CategoriesGridstyle__Image-velasca__sc-wo1twx-3"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/mar_2026_blocco_1b_maglieria_medolla_mgn229.jpg?v=1773654471&width=30",
+      "alt": "",
+      "w": 528,
+      "h": 660,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CategoriesGridstyle__Image-velasca__sc-wo1twx-3"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/mar_2026_blocco_1c_tassel_loafers_cadregatt_tdms.jpg?v=1773654463&width=30",
+      "alt": "",
+      "w": 528,
+      "h": 660,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CategoriesGridstyle__Image-velasca__sc-wo1twx-3"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/mar_2026_blocco_2a_pantaloni_millesimo_bllcd.jpg?v=1773654471&width=30",
+      "alt": "",
+      "w": 528,
+      "h": 660,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CategoriesGridstyle__Image-velasca__sc-wo1twx-3"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/mar_2026_blocco_2b_sneakers_ciciarun_bvn.jpg?v=1773654464&width=30",
+      "alt": "",
+      "w": 528,
+      "h": 660,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CategoriesGridstyle__Image-velasca__sc-wo1twx-3"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/mar_2026_blocco_2c_giubbotti_compiano_ms.jpg?v=1773654471&width=30",
+      "alt": "",
+      "w": 528,
+      "h": 660,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT CategoriesGridstyle__Image-velasca__sc-wo1twx-3"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/blocco_made_in_italy_mobile_0f963232-9673-43b6-bf2f-6c202b163482.jpg?v=1728573605&width=30",
+      "alt": "",
+      "w": 1665,
+      "h": 700,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT AboutUsBlockstyles__Image-velasca__sc-9fshz9-3"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/lug2025_blocco_rimando_bottega_mobile.jpg?v=1753777076&width=30",
+      "alt": "",
+      "w": 1665,
+      "h": 700,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT BottegasBlockstyles__Image-velasca__sc-16yroao-3"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/mar_2026_blocco_rimando_sito_donna_mobile.jpg?v=1773654465&width=30",
+      "alt": "",
+      "w": 1508,
+      "h": 608,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT RedirectBlockstyles__Image-velasca__sc-1epw12b-3"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/blocco_nwsltr_uomo_background.jpg?v=1757501401&width=30",
+      "alt": "",
+      "w": 1665,
+      "h": 427,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT NewsletterSectionstyles__Background-velasca__sc-12c0r48-2"
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/blocco_nwsltr_uomo_foto_2.png?v=1757501406&width=30",
+      "alt": "",
+      "w": 414,
+      "h": 359,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT "
+    },
+    {
+      "src": "https://www.velasca.com/cdn/shop/files/Metodi-pagamento-extra-IT.png?v=1653579870&width=35",
+      "alt": "Accepted payments icon",
+      "w": 350,
+      "h": 50,
+      "parent": "ResponsiveImagestyles__Image-velasca__sc-1vp81kn-0 zpCvT Footerstyles__PaymentsImage-velasca__sc-163a8wy-9"
+    }
+  ],
+  "svgs": [
+    {
+      "class": "BrandLogostyles__Extended-velasca__sc-1cqsfc5-0 styles__StyledBrandLogoExtended-velasca__sc-qjgftd-10 cDgDbm cqpsiA",
+      "label": "",
+      "w": 140,
+      "h": 54,
+      "viewBox": "0 0 1555.96 603.49",
+      "parent": "BrandLogostyles__Extended-velasca__sc-1cqsfc5-0 styles__StyledBrandLogoExtended-velasca__sc-qjgftd-10 cDgDbm"
+    },
+    {
+      "class": "BrandLogostyles__Short-velasca__sc-1cqsfc5-1 styles__StyledBrandLogoShort-velasca__sc-qjgftd-11 fZtHwC foPuPB",
+      "label": "",
+      "w": 48,
+      "h": 48,
+      "viewBox": "0 0 188 188",
+      "parent": "BrandLogostyles__Short-velasca__sc-1cqsfc5-1 styles__StyledBrandLogoShort-velasca__sc-qjgftd-11 fZtHwC"
+    },
+    {
+      "class": "",
+      "label": "",
+      "w": 20,
+      "h": 20,
+      "viewBox": "0 0 700 700",
+      "parent": "IconButtonstyles__WrapIcon-velasca__sc-qbx0hl-1 hLIlFK styles__AccessibilityButton-velasca__sc-qjgftd-44"
+    },
+    {
+      "class": "",
+      "label": "",
+      "w": 20,
+      "h": 20,
+      "viewBox": "0 0 18 18",
+      "parent": "IconButtonstyles__WrapIcon-velasca__sc-qbx0hl-1 hLIlFK search-btn"
+    },
+    {
+      "class": "",
+      "label": "",
+      "w": 20,
+      "h": 20,
+      "viewBox": "0 0 113.39 113.39",
+      "parent": "IconButtonstyles__WrapIcon-velasca__sc-qbx0hl-1 hLIlFK"
+    },
+    {
+      "class": "",
+      "label": "",
+      "w": 20,
+      "h": 20,
+      "viewBox": "0 0 113.39 113.39",
+      "parent": "IconButtonstyles__WrapIcon-velasca__sc-qbx0hl-1 hLIlFK"
+    },
+    {
+      "class": "",
+      "label": "",
+      "w": 24,
+      "h": 24,
+      "viewBox": "0 0 24 24",
+      "parent": "CategoriesGridstyle__CollectionCardTitleWrapper-velasca__sc-wo1twx-4 blvszX"
+    },
+    {
+      "class": "",
+      "label": "",
+      "w": 24,
+      "h": 24,
+      "viewBox": "0 0 24 24",
+      "parent": "CategoriesGridstyle__CollectionCardTitleWrapper-velasca__sc-wo1twx-4 blvszX"
+    },
+    {
+      "class": "",
+      "label": "",
+      "w": 24,
+      "h": 24,
+      "viewBox": "0 0 24 24",
+      "parent": "CategoriesGridstyle__CollectionCardTitleWrapper-velasca__sc-wo1twx-4 blvszX"
+    },
+    {
+      "class": "CollectionFocusBlockstyles__ArrowIcon-velasca__sc-4d26d-2 CollectionFocusBlockstyles__ArrowLeftIcon-velasca__sc-4d26d-4 icmixd daCnPn",
+      "label": "",
+      "w": 20,
+      "h": 20,
+      "viewBox": "0 0 28 15.33",
+      "parent": "CollectionFocusBlockstyles__ArrowIcon-velasca__sc-4d26d-2 CollectionFocusBlockstyles__ArrowLeftIcon-velasca__sc-4d26d-4 icmixd"
+    },
+    {
+      "class": "CollectionFocusBlockstyles__ArrowIcon-velasca__sc-4d26d-2 CollectionFocusBlockstyles__ArrowRightIcon-velasca__sc-4d26d-5 icmixd iruxTY",
+      "label": "",
+      "w": 20,
+      "h": 20,
+      "viewBox": "0 0 28 15.33",
+      "parent": "CollectionFocusBlockstyles__ArrowIcon-velasca__sc-4d26d-2 CollectionFocusBlockstyles__ArrowRightIcon-velasca__sc-4d26d-5 icmixd"
+    },
+    {
+      "class": "",
+      "label": "",
+      "w": 24,
+      "h": 24,
+      "viewBox": "0 0 24 24",
+      "parent": "CategoriesGridstyle__CollectionCardTitleWrapper-velasca__sc-wo1twx-4 blvszX"
+    },
+    {
+      "class": "",
+      "label": "",
+      "w": 24,
+      "h": 24,
+      "viewBox": "0 0 24 24",
+      "parent": "CategoriesGridstyle__CollectionCardTitleWrapper-velasca__sc-wo1twx-4 blvszX"
+    },
+    {
+      "class": "",
+      "label": "",
+      "w": 24,
+      "h": 24,
+      "viewBox": "0 0 24 24",
+      "parent": "CategoriesGridstyle__CollectionCardTitleWrapper-velasca__sc-wo1twx-4 blvszX"
+    },
+    {
+      "class": "",
+      "label": "",
+      "w": 24,
+      "h": 24,
+      "viewBox": "0 0 24 24",
+      "parent": "CategoriesGridstyle__CollectionCardTitleWrapper-velasca__sc-wo1twx-4 blvszX"
+    },
+    {
+      "class": "",
+      "label": "",
+      "w": 24,
+      "h": 24,
+      "viewBox": "0 0 24 24",
+      "parent": "CategoriesGridstyle__CollectionCardTitleWrapper-velasca__sc-wo1twx-4 blvszX"
+    },
+    {
+      "class": "",
+      "label": "",
+      "w": 24,
+      "h": 24,
+      "viewBox": "0 0 24 24",
+      "parent": "CategoriesGridstyle__CollectionCardTitleWrapper-velasca__sc-wo1twx-4 blvszX"
+    },
+    {
+      "class": "svg-icon-arrow",
+      "label": "",
+      "w": 15,
+      "h": 15,
+      "viewBox": "0 0 28 15.33",
+      "parent": "svg-icon-arrow"
+    },
+    {
+      "class": "",
+      "label": "",
+      "w": 14,
+      "h": 14,
+      "viewBox": "0 0 185.343 185.343",
+      "parent": "Buttonstyles__StyledButton-velasca__sc-1w9eteu-0 ezsVQF"
+    }
+  ]
+}
