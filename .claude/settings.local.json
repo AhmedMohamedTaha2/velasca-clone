@@ -26,7 +26,15 @@
       "PowerShell(Get-ChildItem \"d:\\\\Claude\\\\velasca-clone\\\\public\\\\images\\\\www.velasca.com_096fb55f-7f73-4c01-8dcf-f5957d8887c8\\\\\" -File | ForEach-Object { $_.Name })",
       "Bash(Get-ChildItem -Path \"d:\\\\Claude\\\\velasca-clone\" -Recurse -File)",
       "Bash(Select-Object FullName)",
-      "Bash(Format-Table -AutoSize)"
+      "Bash(Format-Table -AutoSize)",
+      "Bash(dir \"d:\\\\Claude\\\\velasca-clone\\\\public\\\\images\\\\scraped\" /b)",
+      "mcp__playwright__browser_hover",
+      "Read(//mnt/d/Claude/**)",
+      "Bash(npx http-server *)",
+      "mcp__playwright__browser_close",
+      "Bash(taskkill /F /IM chrome.exe)",
+      "Bash(npx serve *)",
+      "Bash(python -m http.server 3333)"
     ]
   }
 }

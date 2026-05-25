@@ -41,7 +41,8 @@
 
 @media (min-width: 992px) {
   .footer-breadcrumb a:hover {
-    opacity: 0.7;
+    text-decoration: underline;
+    color: var(--color-text-inverted);
   }
 }
 
@@ -111,12 +112,12 @@
   line-height: 20px;
   font-weight: 300;
   display: inline;
-  transition: opacity 0.2s linear;
 }
 
 @media (min-width: 992px) {
   .footer-col__list a:hover {
-    opacity: 0.7;
+    text-decoration: underline;
+    color: var(--color-text-inverted);
   }
 }
 

@@ -41,12 +41,15 @@
     header.classList.toggle('is-nav-solid', y >= NAV_SOLID_THRESHOLD);
     header.classList.toggle('is-nav-docked', y >= NAV_DOCK_OFFSET);
 
-    if (helpMenu) {
-      helpMenu.style.top = `${getHelpTop(y)}px`;
-    }
-
-    if (navbar) {
-      navbar.style.top = `${getNavTop(y)}px`;
+    if (window.innerWidth > 991) {
+      if (helpMenu) {
+        helpMenu.style.top = `${getHelpTop(y)}px`;
+      }
+      if (navbar) {
+        navbar.style.top = `${getNavTop(y)}px`;
+      }
+    } else {
+      if (navbar) navbar.style.top = '';
     }
 
     if (shortLogo) {
@@ -60,20 +63,22 @@
 })();
 
 /* ─────────────────────────────────
-   BACK TO TOP (audit §5.9)
+   BACK TO TOP
 ───────────────────────────────── */
 (function () {
   const btn = document.getElementById('back-to-top');
   if (!btn) return;
 
   function toggle() {
-    btn.classList.toggle('is-visible', window.scrollY > 600);
+    btn.classList.toggle('show', window.scrollY > 400);
   }
 
-  btn.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'auto' });
-  });
+  function scrollTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 
+  btn.addEventListener('click', scrollTop);
+  btn.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') scrollTop(); });
   window.addEventListener('scroll', toggle, { passive: true });
   toggle();
 })();

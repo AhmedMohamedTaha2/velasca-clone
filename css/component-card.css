@@ -69,8 +69,8 @@ h3.inspired-card-label:hover,
   color: var(--theme-primary-color);
   text-decoration: underline;
   text-decoration-color: var(--theme-primary-color);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 4px;
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.3rem;
 }
 
 .category-card__arrow,
@@ -80,6 +80,14 @@ h3.inspired-card-label:hover,
   flex-shrink: 0;
   stroke: var(--color-text);
   fill: none;
+  transition: stroke 0.2s ease-in-out;
+}
+
+.category-card:hover .category-card__arrow,
+.inspired-card:hover .inspired-card__arrow,
+.category-card:hover .pathArrow,
+.inspired-card:hover .pathArrow {
+  stroke: var(--theme-primary-color);
 }
 
 /* ── EDITORIAL PROMO BLOCKS (AboutUs / Bottegas) ─── */
@@ -298,5 +306,28 @@ h3.inspired-card-label:hover,
 @media (min-width: 992px) {
   .editorial-section--redirect .editorial-card:hover .editorial-card__headline {
     color: var(--color-primary);
+  }
+}
+
+/* About Us / promo editorial — serif headline underline on hover (.lfLkzu parity) */
+@media (max-width: 767px) {
+  a.editorial-card:hover {
+    text-decoration: none;
+  }
+  a.editorial-card:hover .editorial-card__headline {
+    text-decoration: underline 0.2rem;
+    text-underline-offset: 1.4rem;
+    text-decoration-color: currentColor;
+  }
+}
+
+@media (min-width: 992px) {
+  a.editorial-card:hover {
+    text-decoration: none;
+  }
+  a.editorial-card:hover .editorial-card__headline {
+    text-decoration: underline 0.2rem;
+    text-underline-offset: 1.4rem;
+    text-decoration-color: currentColor;
   }
 }

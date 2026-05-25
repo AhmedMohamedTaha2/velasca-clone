@@ -206,24 +206,44 @@
     grid-template-columns: 1fr;
     max-width: none;
     min-height: auto;
-    padding: 40px 12px 0;
+    padding: 48px 20px 0;
     align-items: center;
   }
 
   .newsletter-image-wrap {
     order: 2;
-    max-width: 280px;
+    max-width: 100%;
     margin: 0 auto;
+  }
+
+  .newsletter-image-wrap picture,
+  .newsletter-image-wrap img {
+    max-width: 100%;
+    max-height: none;
   }
 
   .newsletter-form-wrap {
     order: 1;
-    padding-bottom: 32px;
+    padding-bottom: 40px;
+    justify-content: center;
+  }
+
+  .newsletter-content {
+    max-width: 100%;
   }
 
   .newsletter-heading {
-    font-size: 28px;
-    line-height: 35px;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 12px;
+  }
+
+  .newsletter-body {
+    margin-bottom: 28px;
+  }
+
+  .newsletter-input-wrap {
+    max-width: 100%;
   }
 
   .newsletter-input {
