@@ -487,7 +487,9 @@
 }
 
 .template-index
-  .site-header:not(.is-nav-solid):not(.is-nav-docked):not(.is-menu-hover):not(.is-menu-open)
+  .site-header:not(.is-nav-solid):not(.is-nav-docked):not(.is-menu-hover):not(
+    .is-menu-open
+  )
   .nav-link--new
   .nav-link__entry {
   color: #ffffff;
@@ -596,7 +598,7 @@
 }
 
 .site-header__hamburger {
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 22px;
@@ -615,9 +617,11 @@
 
 .site-header__hamburger span {
   display: block;
+  width: 100%;
   height: 1.5px;
   background: currentColor;
   transition: var(--transition-micro);
+  flex: 0 0 1.5px;
 }
 
 /* ── Mobile logo (hidden on desktop) ─────────────────── */
@@ -701,6 +705,15 @@
   .site-header__hamburger {
     display: flex;
     position: static;
+    color: #ffffff;
+  }
+
+  /* Hamburger: white when NOT scrolling, dark when scrolling */
+  .template-index .site-header.is-nav-solid .site-header__hamburger,
+  .template-index .site-header.is-nav-docked .site-header__hamburger,
+  .template-index .site-header.is-menu-open .site-header__hamburger,
+  .template-index .site-header.is-menu-hover .site-header__hamburger {
+    color: var(--header-text);
   }
 
   /* Icon buttons — white on hero (not scrolled), dark when scrolled */
@@ -731,17 +744,34 @@
     padding: 0 5px 0 0;
   }
 
-  /* All icons and hamburger always dark on mobile (override hero-overlay white rules) */
-  .site-header .navbar__icon-btn,
-  .template-index .site-header .navbar__icon-btn,
-  .template-index .site-header:not(.is-nav-solid):not(.is-nav-docked) .navbar__icon-btn,
-  .template-index .site-header:not(.is-nav-solid):not(.is-nav-docked) .navbar__icon-btn--a11y,
-  .template-index .site-header:not(.is-nav-solid):not(.is-nav-docked) .navbar__icon-btn--search {
+  /* Icons and hamburger: white when NOT scrolling (no scroll), dark when scrolling */
+  .template-index
+    .site-header:not(.is-nav-solid):not(.is-nav-docked)
+    .navbar__icon-btn,
+  .template-index
+    .site-header:not(.is-nav-solid):not(.is-nav-docked)
+    .navbar__icon-btn--search {
+    color: #ffffff !important;
+  }
+
+  .template-index
+    .site-header:not(.is-nav-solid):not(.is-nav-docked)
+    .site-header__hamburger {
+    color: #ffffff !important;
+  }
+
+  /* Dark color when scrolling (is-nav-solid or is-nav-docked applied) */
+  .template-index .site-header.is-nav-solid .navbar__icon-btn,
+  .template-index .site-header.is-nav-docked .navbar__icon-btn,
+  .template-index .site-header.is-menu-open .navbar__icon-btn,
+  .template-index .site-header.is-menu-hover .navbar__icon-btn {
     color: var(--header-text) !important;
   }
 
-  .site-header .site-header__hamburger,
-  .template-index .site-header .site-header__hamburger {
+  .template-index .site-header.is-nav-solid .site-header__hamburger,
+  .template-index .site-header.is-nav-docked .site-header__hamburger,
+  .template-index .site-header.is-menu-open .site-header__hamburger,
+  .template-index .site-header.is-menu-hover .site-header__hamburger {
     color: var(--header-text) !important;
   }
 }
@@ -874,7 +904,8 @@
   position: fixed;
   left: 15px;
   bottom: 15px;
-  background: url("../assets/icons/chat_200x.svg") 50% 50% / contain no-repeat transparent;
+  background: url("../assets/icons/chat_200x.svg") 50% 50% / contain no-repeat
+    transparent;
   filter: drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 2px);
   cursor: pointer;
   z-index: 25;
