@@ -17,7 +17,7 @@
 
       this.currentIndex = 0;
       this.autoplayInterval = null;
-      this.autoplayDelay = 5000;
+      this.autoplayDelay = 4000;
 
       this.init();
     }

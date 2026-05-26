@@ -11,6 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
     observer: true,
     observeParents: true,
     resizeObserver: true,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
     navigation: {
       nextEl: '.editorial-carousel__nav--next',
       prevEl: '.editorial-carousel__nav--prev',
