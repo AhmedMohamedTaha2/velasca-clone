@@ -75,6 +75,13 @@
   max-width: 240px;
 }
 
+@media (max-width: 767px) {
+  .footer-col,
+  .footer-col__body {
+    max-width: none;
+  }
+}
+
 .footer-col__heading {
   font-family: var(--font-primary);
   font-size: 16px;
@@ -108,9 +115,9 @@
 
 .footer-col__list a {
   color: var(--color-text-inverted);
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 300;
+  font-size: 14px;
+  line-height: 17.5px;
+  font-weight: 400;
   display: inline;
 }
 

@@ -188,7 +188,6 @@
 @media (min-width: 992px) {
   .help-menu__link:hover {
     color: rgb(49, 51, 50);
-    text-decoration: underline;
     cursor: pointer;
   }
 }
@@ -334,17 +333,21 @@
   flex-shrink: 0;
 }
 
+.navbar__icon-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar__icon-btn--search svg,
+.navbar__icon-btn--a11y svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Unified color for search and a11y buttons */
+.navbar__icon-btn--search,
 .navbar__icon-btn--a11y {
-  color: #929993;
-}
-
-.navbar__icon-btn--search svg {
-  width: 18px;
-  height: 18px;
-}
-
-.navbar__icon-btn--search {
-  color: #8b959a;
+  color: #313332;
 }
 
 /* Icon SVG path transition — matches live site .hLIlFK g, .hLIlFK path rule */
@@ -368,30 +371,23 @@
 
 .template-index
   .site-header:not(.is-nav-solid):not(.is-nav-docked)
-  .navbar__icon-btn--a11y {
-  color: #ffffff;
-}
-
-.template-index
-  .site-header:not(.is-nav-solid):not(.is-nav-docked)
   .navbar__icon-btn--search {
   color: #ffffff;
 }
 
 /* Solid / docked — dark icons */
 .template-index .site-header.is-nav-solid .navbar__icon-btn,
-.template-index .site-header.is-nav-docked .navbar__icon-btn {
-  color: var(--header-text);
-}
-
+.template-index .site-header.is-nav-docked .navbar__icon-btn,
 .template-index .site-header.is-nav-solid .navbar__icon-btn--a11y,
 .template-index .site-header.is-nav-docked .navbar__icon-btn--a11y {
-  color: #929993;
+  color: #313332;
 }
 
 .template-index .site-header.is-nav-solid .navbar__icon-btn--search,
-.template-index .site-header.is-nav-docked .navbar__icon-btn--search {
-  color: #8b959a;
+.template-index .site-header.is-nav-docked .navbar__icon-btn--search,
+.template-index .site-header.is-nav-solid .navbar__icon-btn--a11y,
+.template-index .site-header.is-nav-docked .navbar__icon-btn--a11y {
+  color: #313332;
 }
 
 /* Center — nav links */
@@ -600,14 +596,16 @@
 .site-header__hamburger {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 4px;
   width: 22px;
-  height: 14px;
+  height: auto;
   cursor: pointer;
   color: #ffffff;
   background: transparent;
   border: none;
   padding: 0;
+  align-items: center;
 }
 
 .template-index .site-header.is-nav-solid .site-header__hamburger,
@@ -618,10 +616,10 @@
 .site-header__hamburger span {
   display: block;
   width: 100%;
-  height: 1.5px;
-  background: currentColor;
-  transition: var(--transition-micro);
-  flex: 0 0 1.5px;
+  height: 2px;
+  background: rgb(251 255 253);
+  transition: var(--transition-hamburger);
+  flex: none;
 }
 
 /* ── Mobile logo (hidden on desktop) ─────────────────── */
@@ -653,7 +651,7 @@
      solid white when scrolled or menu open */
   .site-header__navbar {
     top: 0 !important;
-    height: 68px;
+    height: 58px;
     background-color: transparent;
   }
 
@@ -664,20 +662,20 @@
     background-color: rgb(249, 248, 247) !important;
   }
 
-  /* Promo bar always solid teal on mobile */
+  /* Promo bar: transparent white on hero (matches live site rgba(255,255,255,0.3));
+     is-scrolled state turns it solid teal via the shared rule above */
   .promotional-banner {
-    background-color: var(--header-brand-teal) !important;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   /* Left chunk: tighter padding, hamburger is now first child */
   .navbar__left {
     padding: 0 0 0 5px;
-    height: 48px;
+    height: 44px;
   }
 
-  /* Hide short V-logo and accessibility button */
-  .navbar__short-logo,
-  .navbar__icon-btn--a11y {
+  /* Hide short V-logo */
+  .navbar__short-logo {
     display: none;
   }
 
@@ -716,12 +714,27 @@
     color: var(--header-text);
   }
 
+  /* Hamburger span background: changes from light cream to currentColor on scroll */
+  .template-index .site-header.is-nav-solid .site-header__hamburger span,
+  .template-index .site-header.is-nav-docked .site-header__hamburger span,
+  .template-index .site-header.is-menu-open .site-header__hamburger span,
+  .template-index .site-header.is-menu-hover .site-header__hamburger span {
+    background: currentColor;
+  }
+
   /* Icon buttons — white on hero (not scrolled), dark when scrolled */
   .navbar__icon-btn {
+    display: flex;
     color: #ffffff;
   }
 
-  .navbar__icon-btn--search {
+  /* Hide account link on mobile/tablet */
+  .navbar__account-link {
+    display: none;
+  }
+
+  .navbar__icon-btn--search,
+  .navbar__icon-btn--a11y {
     color: #ffffff;
   }
 
@@ -735,13 +748,22 @@
   .site-header.is-nav-solid .navbar__icon-btn--search,
   .site-header.is-nav-docked .navbar__icon-btn--search,
   .site-header.is-menu-open .navbar__icon-btn--search,
-  .site-header.is-menu-hover .navbar__icon-btn--search {
-    color: #8b959a;
+  .site-header.is-menu-hover .navbar__icon-btn--search,
+  .site-header.is-nav-solid .navbar__icon-btn--a11y,
+  .site-header.is-nav-docked .navbar__icon-btn--a11y,
+  .site-header.is-menu-open .navbar__icon-btn--a11y,
+  .site-header.is-menu-hover .navbar__icon-btn--a11y,
+  .site-header.is-nav-solid .navbar__icon-btn,
+  .site-header.is-nav-docked .navbar__icon-btn,
+  .site-header.is-menu-open .navbar__icon-btn,
+  .site-header.is-menu-hover .navbar__icon-btn {
+    color: #313332;
   }
 
   /* Right chunk: flush right */
   .navbar__right {
     padding: 0 5px 0 0;
+    height: 44px;
   }
 
   /* Icons and hamburger: white when NOT scrolling (no scroll), dark when scrolling */
@@ -807,12 +829,12 @@
 .mobile-drawer__panel {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   width: min(var(--drawer-width), 85vw);
   height: 100%;
   background: var(--color-bg);
   padding: 60px 24px 40px;
-  transform: translateX(100%);
+  transform: translateX(-100%);
   transition: var(--transition-drawer);
   overflow-y: auto;
 }
@@ -824,7 +846,7 @@
 .mobile-drawer__close {
   position: absolute;
   top: 16px;
-  right: 20px;
+  right: 16px;
   font-size: 26px;
   color: var(--color-text);
   line-height: 1;
@@ -842,9 +864,10 @@
   font-size: 14px;
   font-weight: 400;
   color: var(--color-text);
-  padding: 14px 0;
+  padding: 16px 24px;
   border-bottom: 1px solid var(--color-border);
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
@@ -897,6 +920,13 @@
   stroke: #185674;
 }
 
+/* Hide back-to-top on mobile only (matches velasca: max-width 767px) */
+@media (max-width: 767px) {
+  #back-to-top {
+    display: none !important;
+  }
+}
+
 /* ── ZENDESK CHAT ICON ──────────────────────────────── */
 .velasca-zendesk-icon {
   width: 60px;
@@ -910,11 +940,71 @@
   cursor: pointer;
   z-index: 25;
   transition: opacity 0.1s ease-in-out;
+  display: none;
 }
 
-@media (max-width: 767px) {
+/* Show Zendesk on desktop only (min-width 1200px) */
+@media screen and (min-width: 1200px) {
   .velasca-zendesk-icon {
-    bottom: 130px;
+    display: block;
+  }
+}
+
+/* ── ACCESSIBILITY OPTIONS BTN (Desktop only in navbar) ────────────── */
+.navbar__icon-btn--a11y {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar__icon-btn--a11y {
+    display: flex;
+  }
+}
+
+/* ── ACCESSIBILITY ICON (Mobile/Tablet) ────────────── */
+.accessibility-icon--mobile {
+  height: 40px;
+  background-color: #185674;
+  position: fixed;
+  border-radius: 50%;
+  bottom: 100px;
+  left: 28px;
+  z-index: 25;
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 5px;
+  transition: opacity 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.accessibility-icon--mobile path {
+  fill: #ffffff;
+}
+
+.accessibility-icon--mobile circle {
+  stroke: none;
+  stroke-width: 2.7549;
+  stroke-miterlimit: 10;
+  fill: none;
+}
+
+.accessibility-icon--mobile .svg-accessibility {
+  margin-right: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.accessibility-icon--mobile .svg-accessibility__circle {
+  stroke: none;
+}
+
+.free-viewport-bottom-left .accessibility-icon--mobile {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Hide accessibility icon on desktop (matches velasca: min-width 1200px) */
+@media screen and (min-width: 1200px) {
+  .accessibility-icon--mobile {
+    display: none;
   }
 }
 
@@ -1009,7 +1099,7 @@
 
 @media (min-width: 992px) {
   .mega-menu__group-title a:hover {
-    text-decoration: underline;
+    /* color change only */
   }
 }
 
@@ -1034,7 +1124,7 @@
 
 @media (min-width: 992px) {
   .mega-menu__link:hover {
-    text-decoration: underline;
+    /* color change only */
   }
 }
 

@@ -69,21 +69,22 @@
 
   /* ─── TRANSITIONS ─────────────────────────────────── */
   --transition-micro: all 0.2s linear;
+  --transition-hamburger: all 0.4s cubic-bezier(0, 0, 0, 1);
   --transition-overlay: all 0.4s ease-in-out;
   --transition-drawer: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1);
 
   /* ─── LIVE SITE ALIASES (audit §3–4) ──────────────── */
-  --theme-font-family: "Jost",serif;
-  --theme-secondary-font-family: Jomolhari,serif;
+  --theme-font-family: "Jost", serif;
+  --theme-secondary-font-family: Jomolhari, serif;
   --theme-primary-color: #185674;
   --theme-primary-light: #427892;
-  --theme-primary-rgb: 24,86,116;
+  --theme-primary-rgb: 24, 86, 116;
   --theme-secondary-color: #b9bbbb;
-  --theme-secondary-rgb: 185,187,187;
+  --theme-secondary-rgb: 185, 187, 187;
   --theme-tertiary-color: #777777;
   --theme-tertiary-variation: #a4abad;
   --theme-light-color: #f5f5f5;
-  --theme-dark-rgb: 0,0,0;
+  --theme-dark-rgb: 0, 0, 0;
   --theme-primary-text-color: #313332;
   --theme-text-color: #313332;
   --theme-secondary-text-color: #ffffff;
@@ -93,9 +94,9 @@
   --theme-accent-color: #b0684f;
   --theme-background-color: #ffffff;
   --theme-button-light-color: #f2f2f2;
-  --theme-box-background-color: #F9F8F7;
-  --theme-neutral500-color: #8B959A;
-  --theme-neutral300-color: #D9D9D9;
+  --theme-box-background-color: #f9f8f7;
+  --theme-neutral500-color: #8b959a;
+  --theme-neutral300-color: #d9d9d9;
 }
 
 /* ═══════════════════════════════════════
@@ -117,8 +118,8 @@ html {
 
 body {
   font-family: var(--font-primary);
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 9px;
+  line-height: 12.8571px;
   font-weight: 400;
   color: var(--color-text);
   background-color: var(--color-bg);
@@ -145,8 +146,10 @@ a {
 }
 
 /* Colored underline on hover — use theme primary color */
-a:hover,
-a:focus {
+/* Excludes card links (.category-card, .inspired-card, .editorial-card) which manage their own hover */
+/* Excludes .nav-link which manages its own hover styles */
+a:hover:not(.category-card):not(.GWqXK):not(.editorial-card):not(.nav-link),
+a:focus:not(.category-card):not(.GWqXK):not(.editorial-card):not(.nav-link) {
   color: var(--theme-primary-color);
   text-decoration: underline;
   text-decoration-color: var(--theme-primary-color);
@@ -247,8 +250,8 @@ p,
 span,
 a {
   font-family: var(--font-primary);
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 9px;
+  line-height: 12.8571px;
   font-weight: 400;
   color: var(--color-text);
 }
@@ -325,15 +328,24 @@ a {
 
 /* ── MOBILE OVERRIDES (section headings only — not UI labels) ── */
 @media (max-width: 767px) {
+  /* "Get inspired" serif title — audit: 30px/37.5px/-2px */
   .get-inspired-heading {
-    font-size: 36px;
-    line-height: 45px;
+    font-size: 30px;
+    line-height: 37.5px;
     letter-spacing: -2px;
   }
 
-  .editorial-card__headline,
+  /* Editorial promo overlays — audit: 30px/37.5px/-2px */
+  .editorial-card .editorial-card__headline {
+    font-size: 30px;
+    line-height: 37.5px;
+    letter-spacing: -2px;
+  }
+
+  /* Newsletter heading — audit: 36px/45px/-2px */
   .newsletter-heading {
-    font-size: 28px;
-    line-height: 35px;
+    font-size: 30px;
+    line-height: 37.5px;
+    letter-spacing: -2px;
   }
 }

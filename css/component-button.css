@@ -86,6 +86,7 @@
   transition: 0.2s ease-in-out;
   cursor: pointer;
   white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .btn-white span {
@@ -100,15 +101,18 @@
   color: inherit;
 }
 
-@media (min-width: 992px) {
-  .btn-white:hover {
-    background-color: #ffffff;
-    color: #313332;
-  }
+/* FIX #1: Hero CTA button hover must work on mobile too (moved outside @media min-width: 992px) */
+.btn-white:hover,
+.btn-white:active,
+.btn-white:focus {
+  background-color: #ffffff;
+  color: #313332;
+}
 
-  .btn-white:hover span {
-    color: #313332;
-  }
+.btn-white:hover span,
+.btn-white:active span,
+.btn-white:focus span {
+  color: #313332;
 }
 
 .btn-pill {
