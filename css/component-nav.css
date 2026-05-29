@@ -805,6 +805,13 @@
   }
 }
 
+/* ── DESKTOP: Hide hamburger ──────────────────────── */
+@media (min-width: 992px) {
+  .site-header__hamburger {
+    display: none;
+  }
+}
+
 /* ── MOBILE MENU DRAWER ───────────────────────────── */
 .mobile-drawer {
   position: fixed;
