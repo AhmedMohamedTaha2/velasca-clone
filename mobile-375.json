@@ -1,0 +1,222 @@
+{
+  "viewport": 375,
+  "backToTop": {
+    "found": true,
+    "tagName": "DIV",
+    "className": "tran-all",
+    "display": "none",
+    "visibility": "visible",
+    "opacity": "0",
+    "position": "fixed",
+    "bottom": "40px",
+    "right": "40px",
+    "zIndex": "1000",
+    "pointerEvents": "auto",
+    "width": "auto",
+    "height": "35px",
+    "rect": {
+      "top": 0,
+      "left": 0,
+      "w": 0,
+      "h": 0
+    }
+  },
+  "zendesk": {
+    "found": true,
+    "tagName": "DIV",
+    "className": "velasca-zendesk-icon",
+    "display": "none",
+    "visibility": "visible",
+    "opacity": "1",
+    "position": "fixed",
+    "bottom": "15px",
+    "right": "auto",
+    "zIndex": "25",
+    "pointerEvents": "auto",
+    "width": "60px",
+    "height": "75px",
+    "rect": {
+      "top": 0,
+      "left": 0,
+      "w": 0,
+      "h": 0
+    }
+  },
+  "accessibility": {
+    "found": true,
+    "tagName": "svg",
+    "className": "",
+    "display": "inline",
+    "visibility": "visible",
+    "opacity": "1",
+    "position": "static",
+    "bottom": "auto",
+    "right": "auto",
+    "zIndex": "auto",
+    "pointerEvents": "auto",
+    "width": "40px",
+    "height": "40px",
+    "rect": {
+      "top": 672,
+      "left": 28,
+      "w": 40,
+      "h": 40
+    }
+  },
+  "allFixedBottomRight": [
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "accessez-skip-links-container",
+      "bottom": "802px",
+      "right": "350px",
+      "display": "block",
+      "zIndex": "10000",
+      "width": "0px",
+      "height": "0px"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "cls": "accessez-skip-link",
+      "bottom": "803px",
+      "right": "351px",
+      "display": "block",
+      "zIndex": "auto",
+      "width": "1px",
+      "height": "1px"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "cls": "accessez-skip-link",
+      "bottom": "803px",
+      "right": "351px",
+      "display": "block",
+      "zIndex": "auto",
+      "width": "1px",
+      "height": "1px"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "accessez-accessibility-skip-button",
+      "cls": "accessez-skip-link",
+      "bottom": "803px",
+      "right": "351px",
+      "display": "block",
+      "zIndex": "auto",
+      "width": "1px",
+      "height": "1px"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "MobileNavigationstyles__Header-velasca__sc-1vn25ou-0 dKEfaf",
+      "bottom": "703px",
+      "right": "0px",
+      "display": "flex",
+      "zIndex": "100",
+      "width": "360px",
+      "height": "109px"
+    },
+    {
+      "tag": "DIV",
+      "id": "back-to-top",
+      "cls": "tran-all",
+      "bottom": "40px",
+      "right": "40px",
+      "display": "none",
+      "zIndex": "1000",
+      "width": "auto",
+      "height": "35px"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "newsletter-foot-block",
+      "bottom": "0px",
+      "right": "0px",
+      "display": "none",
+      "zIndex": "999999",
+      "width": "auto",
+      "height": "auto"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "accessibility-icon--mobile",
+      "bottom": "100px",
+      "right": "292px",
+      "display": "block",
+      "zIndex": "25",
+      "width": "40px",
+      "height": "40px"
+    },
+    {
+      "tag": "DIV",
+      "id": "md-video-our-promise",
+      "cls": "modal modal-video fade",
+      "bottom": "0px",
+      "right": "0px",
+      "display": "none",
+      "zIndex": "1050",
+      "width": "auto",
+      "height": "auto"
+    },
+    {
+      "tag": "DIV",
+      "id": "md-home-video",
+      "cls": "modal modal-video fade",
+      "bottom": "0px",
+      "right": "0px",
+      "display": "none",
+      "zIndex": "1050",
+      "width": "auto",
+      "height": "auto"
+    },
+    {
+      "tag": "DIV",
+      "id": "md-home-contest",
+      "cls": "modal modal-contest fade",
+      "bottom": "0px",
+      "right": "0px",
+      "display": "none",
+      "zIndex": "1050",
+      "width": "auto",
+      "height": "auto"
+    },
+    {
+      "tag": "DIV",
+      "id": "contact-thank",
+      "cls": "modal fade",
+      "bottom": "0px",
+      "right": "0px",
+      "display": "none",
+      "zIndex": "1050",
+      "width": "auto",
+      "height": "auto"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "accessease-icon",
+      "cls": "accessease-icon accessease-icon-medium  accessease-icon--thin",
+      "bottom": "20px",
+      "right": "20px",
+      "display": "none",
+      "zIndex": "2147483645",
+      "width": "40px",
+      "height": "40px"
+    },
+    {
+      "tag": "DIV",
+      "id": "accessease-widget",
+      "cls": "accessease-widget-medium",
+      "bottom": "0px",
+      "right": "0px",
+      "display": "none",
+      "zIndex": "2147483647",
+      "width": "100%",
+      "height": "100%"
+    }
+  ]
+}

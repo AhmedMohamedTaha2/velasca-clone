@@ -1,0 +1,126 @@
+{
+  "mobileIconContainer": {
+    "outerHTML": "<div class=\"accessibility-icon--mobile\" onclick=\"toggleAccessEzWidgetManually()\"> <svg class=\"svg-accessibility icon-svg\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 92 91.5\" style=\"enable-background:new 0 0 92 91.5\" xml:space=\"preserve\"><path class=\"svg-accessibility__head\" d=\"M46.1,21.4c2.7,0,4.9,2.2,4.9,4.9s-2.2,4.9-4.9,4.9s-4.9-2.2-4.9-4.9S43.3,21.4,46.1,21.4z\"></path><path class=\"svg-accessibility__body\" d=\"M64.8,3",
+    "display": "block",
+    "position": "fixed",
+    "bottom": "100px",
+    "right": "292px",
+    "left": "28px",
+    "zIndex": "25",
+    "width": "40px",
+    "height": "40px"
+  },
+  "svgInside": {
+    "tag": "svg",
+    "cls": "svg-accessibility icon-svg",
+    "display": "inline",
+    "width": "40px",
+    "height": "40px"
+  },
+  "cssRules": [
+    {
+      "mq": null,
+      "rule": "#back-to-top { position: fixed; height: 35px; bottom: 40px; right: 40px; z-index: 1000; padding: 9px; text-align: center; cursor: pointer; opacity: 0; background-color: rgb(255, 255, 255); border: 1px solid rgb(24, 86, 116); border-radius: 100px; line-height: 0; }"
+    },
+    {
+      "mq": null,
+      "rule": "#back-to-top svg { width: 15px; transform: rotate(180deg) !important; }"
+    },
+    {
+      "mq": null,
+      "rule": "#back-to-top svg path { stroke: rgb(24, 86, 116) !important; }"
+    },
+    {
+      "mq": null,
+      "rule": "#back-to-top.show { opacity: 1; }"
+    },
+    {
+      "mq": null,
+      "rule": "body.scroll-locked #back-to-top, #privy-container, .privy-pusher { display: none !important; }"
+    },
+    {
+      "mq": "(max-width: 767px)",
+      "rule": "#back-to-top { display: none !important; }"
+    },
+    {
+      "mq": null,
+      "rule": "@media (max-width: 767px) {\n  [name=\"data-hover\"] { margin: 0px; }\n  [name=\"data-hover\"] .box { width: 100%; }\n  [name=\"data-hover\"] .box .label-big { margin: 30px 0px 15px; height: auto !important; }\n  [name=\"data-hover\"] .box .image { margin-bottom: 15px; }\n  [name=\"data-hover\"] .box .image .hover { opacity: 1 !important; }\n  [name=\"data-hover\"] .box .hover-data { display: block !important; }\n  "
+    },
+    {
+      "mq": null,
+      "rule": ".accessibility-icon--mobile { height: 40px; background-color: rgb(24, 86, 116); position: fixed; border-radius: 50%; bottom: 100px; left: 28px; z-index: 25; box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 5px; transition: opacity 0.1s ease-in-out; }"
+    },
+    {
+      "mq": "screen and (min-width: 1200px)",
+      "rule": ".accessibility-icon--mobile { display: none; }"
+    },
+    {
+      "mq": null,
+      "rule": "@media screen and (min-width: 1200px) {\n  .accessibility-icon--mobile { display: none; }\n}"
+    },
+    {
+      "mq": null,
+      "rule": ".free-viewport-bottom-left .accessibility-icon--mobile { opacity: 0; pointer-events: none; }"
+    },
+    {
+      "mq": "(max-width: 767px)",
+      "rule": "body.cart .accessibility-icon--mobile { bottom: 215px; }"
+    },
+    {
+      "mq": null,
+      "rule": "@media (max-width: 767px) {\n  body.cart .accessibility-icon--mobile { bottom: 215px; }\n}"
+    },
+    {
+      "mq": null,
+      "rule": ".accessibility-icon--mobile circle { stroke: none; stroke-width: 2.7549; stroke-miterlimit: 10; fill: none; }"
+    },
+    {
+      "mq": null,
+      "rule": ".accessibility-icon--mobile path { fill: rgb(255, 255, 255); }"
+    },
+    {
+      "mq": null,
+      "rule": ".accessibility-icon--mobile .svg-accessibility { margin-right: 0px; width: 40px; height: 40px; }"
+    },
+    {
+      "mq": null,
+      "rule": ".accessibility-icon--mobile .svg-accessibility__circle { stroke: none; }"
+    },
+    {
+      "mq": null,
+      "rule": ".velasca-zendesk-icon { width: 60px; height: 75px; position: fixed; left: 15px; bottom: 15px; background: url(\"//www.velasca.com/cdn/shop/t/13/assets/chat_200x.svg?v=60311987616055595571756913061\") 50% 50% / contain no-repeat transparent; filter: drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 2px); cursor: pointer; z-index: 25; transition: opacity 0.1s ease-in-out; }"
+    },
+    {
+      "mq": "(max-width: 767px)",
+      "rule": "body.cart .velasca-zendesk-icon { bottom: 130px; }"
+    },
+    {
+      "mq": null,
+      "rule": "@media (max-width: 767px) {\n  body.cart .velasca-zendesk-icon { bottom: 130px; }\n}"
+    },
+    {
+      "mq": null,
+      "rule": ".free-viewport-bottom-left .velasca-zendesk-icon { opacity: 0; pointer-events: none; }"
+    },
+    {
+      "mq": null,
+      "rule": ".accessease-poweredby { display: none !important; }"
+    },
+    {
+      "mq": null,
+      "rule": ":root { --accessease-icon-fill-color: rgb(0, 0, 0); --accessease-icon-stroke-color: rgb(255, 255, 255); --accessease-widget-button-bg: rgb(24, 85, 116); --accessease-widget-button-text: rgb(255, 255, 255); --accessease-widget-border-color: rgba(0, 0, 0, 0.3); --accessease-widget-bg: rgb(239, 241, 245); --accessease-widget-text: rgb(0, 0, 0); --accessease-widget-text-subdued: rgba(0, 0, 0, 0.85); -"
+    },
+    {
+      "mq": null,
+      "rule": "#accessease-icon { display: none !important; }"
+    },
+    {
+      "mq": null,
+      "rule": "#accessease-widget { display: none; }"
+    },
+    {
+      "mq": null,
+      "rule": "#accessease-widget { transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s; }"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "fontSize": "20px",
+  "fontWeight": "500",
+  "color": "rgb(24, 86, 116)",
+  "textDecorationLine": "underline",
+  "textDecorationColor": "rgb(24, 86, 116)",
+  "textDecorationThickness": "1px",
+  "textUnderlineOffset": "3px",
+  "transition": "color 0.2s ease-in-out"
+}

@@ -1,0 +1,21 @@
+{
+  "card": {
+    "width": 293.21875,
+    "height": 155.5,
+    "paddingTop": "34px",
+    "paddingRight": "60px",
+    "paddingBottom": "34px",
+    "paddingLeft": "60px",
+    "marginTop": "100px",
+    "marginRight": "50px"
+  },
+  "h3": {
+    "fontSize": "20px",
+    "lineHeight": "25px"
+  },
+  "h2": {
+    "fontSize": "30px",
+    "lineHeight": "37.5px",
+    "letterSpacing": "-2px"
+  }
+}

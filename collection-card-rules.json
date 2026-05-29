@@ -1,0 +1,30 @@
+[
+  {
+    "mediaQuery": null,
+    "rule": ".jOahfV { font-family: Jost, serif; line-height: 125%; font-weight: 500; font-style: normal; letter-spacing: 2px; text-transform: uppercase; margin: 0px; padding: 0px; color: rgb(49, 51, 50); font-size: 20px; }"
+  },
+  {
+    "mediaQuery": null,
+    "rule": ".jOahfV p { font-size: inherit; line-height: inherit; margin-bottom: 0px; }"
+  },
+  {
+    "mediaQuery": null,
+    "rule": ".GWqXK { margin-bottom: 1rem; }"
+  },
+  {
+    "mediaQuery": "screen and (min-width: 992px)",
+    "rule": ".GWqXK { margin-bottom: 3.5rem; }"
+  },
+  {
+    "mediaQuery": null,
+    "rule": "@media screen and (min-width: 992px) {\n  .GWqXK { margin-bottom: 3.5rem; }\n}"
+  },
+  {
+    "mediaQuery": null,
+    "rule": ".GWqXK:hover .SansTitlestyles__Title-velasca__sc-4f82ke-0 { color: rgb(24, 86, 116); text-decoration: underline 0.1rem; text-underline-offset: 0.3rem; }"
+  },
+  {
+    "mediaQuery": null,
+    "rule": ".GWqXK:hover .pathArrow { stroke: rgb(24, 86, 116); }"
+  }
+]

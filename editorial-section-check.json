@@ -1,0 +1,26 @@
+{
+  "ancestors": [
+    {
+      "tag": "DIV",
+      "cls": "editorial-section__frame"
+    },
+    {
+      "tag": "SECTION",
+      "cls": "editorial-section editorial-section--promo editorial-section--about"
+    },
+    {
+      "tag": "MAIN",
+      "cls": "content side-collapse-container"
+    },
+    {
+      "tag": "BODY",
+      "cls": "template-index"
+    },
+    {
+      "tag": "HTML",
+      "cls": ""
+    }
+  ],
+  "h3FontSize": "20px",
+  "viewport": 375
+}

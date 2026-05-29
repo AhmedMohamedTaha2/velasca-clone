@@ -1,0 +1,135 @@
+{
+  "body": {
+    "name": "body",
+    "rect": {
+      "w": 375,
+      "h": 6743,
+      "x": 0,
+      "y": 0
+    },
+    "fontSize": "9px",
+    "lineHeight": "12.8571px",
+    "color": "rgb(49, 51, 50)",
+    "bg": "rgb(255, 255, 255)",
+    "padding": "0px",
+    "letterSpacing": "normal",
+    "position": "static"
+  },
+  "promo": {
+    "name": "promo",
+    "rect": {
+      "w": 375,
+      "h": 41,
+      "x": 0,
+      "y": 0
+    },
+    "fontSize": "14px",
+    "lineHeight": "20px",
+    "color": "rgb(255, 255, 255)",
+    "bg": "rgba(255, 255, 255, 0.3)",
+    "padding": "0px",
+    "letterSpacing": "normal",
+    "position": "relative"
+  },
+  "headerBar": {
+    "name": "headerBar",
+    "rect": {
+      "w": 375,
+      "h": 58,
+      "x": 0,
+      "y": 41
+    },
+    "fontSize": "9px",
+    "lineHeight": "12.8571px",
+    "color": "rgb(49, 51, 50)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "padding": "0px",
+    "letterSpacing": "normal",
+    "position": "absolute"
+  },
+  "heroCTA": {
+    "name": "heroCTA",
+    "rect": {
+      "w": 300,
+      "h": 38,
+      "x": 38,
+      "y": 457
+    },
+    "fontSize": "14px",
+    "lineHeight": "20px",
+    "color": "rgb(255, 255, 255)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "padding": "11px",
+    "letterSpacing": "normal",
+    "position": "static"
+  },
+  "newsletterSection": {
+    "name": "newsletterSection",
+    "rect": {
+      "w": 375,
+      "h": 589,
+      "x": 0,
+      "y": 5314
+    },
+    "fontSize": "9px",
+    "lineHeight": "12.8571px",
+    "color": "rgb(49, 51, 50)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "padding": "0px",
+    "letterSpacing": "normal",
+    "position": "relative"
+  },
+  "newsletterHeading": {
+    "name": "newsletterHeading",
+    "rect": {
+      "w": 351,
+      "h": 45,
+      "x": 12,
+      "y": 5382
+    },
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "color": "rgb(49, 51, 50)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "padding": "0px",
+    "letterSpacing": "-2px",
+    "position": "static"
+  },
+  "newsletterInput": {
+    "name": "newsletterInput",
+    "rect": {
+      "w": 307,
+      "h": 44,
+      "x": 12,
+      "y": 5515
+    },
+    "fontSize": "14px",
+    "lineHeight": "12.5px",
+    "color": "rgb(49, 51, 50)",
+    "bg": "rgb(255, 255, 255)",
+    "padding": "17px 15px",
+    "letterSpacing": "normal",
+    "position": "static"
+  },
+  "footer": {
+    "name": "footer",
+    "rect": {
+      "w": 375,
+      "h": 841,
+      "x": 0,
+      "y": 5902
+    },
+    "fontSize": "9px",
+    "lineHeight": "12.8571px",
+    "color": "rgb(255, 255, 255)",
+    "bg": "rgb(49, 51, 50)",
+    "padding": "0px",
+    "letterSpacing": "normal",
+    "position": "static"
+  },
+  "viewport": {
+    "w": 390,
+    "h": 844
+  },
+  "overflow": false
+}

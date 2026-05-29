@@ -1,0 +1,32 @@
+{
+  "frameStyles": {
+    "backgroundImage": "none",
+    "overflow": "visible",
+    "position": "relative"
+  },
+  "directChildren": [
+    {
+      "tagName": "DIV",
+      "className": "AboutUsBlockstyles__ImageWrapper-velasca__sc-9fshz9-2 hyiMfc",
+      "display": "block",
+      "position": "absolute",
+      "width": "1425px",
+      "height": "700px",
+      "zIndex": "auto",
+      "hasBgImage": false
+    },
+    {
+      "tagName": "A",
+      "className": "HomePageLink-velasca__sc-1gy4zm6-0 AboutUsBlockstyles__Description-velasca__sc-9fshz9-4 lfLkzu QEbJK",
+      "display": "block",
+      "position": "relative",
+      "width": "472.953px",
+      "height": "183.5px",
+      "zIndex": "1",
+      "hasBgImage": false
+    }
+  ],
+  "hasImg": true,
+  "hasVideo": false,
+  "imgSrc": "https://www.velasca.com/cdn/shop/files/blocco_made_in_italy_mobile_0f963232-9673"
+}

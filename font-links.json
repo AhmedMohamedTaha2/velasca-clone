@@ -1,0 +1,22 @@
+[
+  {
+    "href": "https://fonts.gstatic.com/s/jost/v20/92zatBhPNqw73oTd4jQmfxI.woff2",
+    "rel": "preload",
+    "as": "font"
+  },
+  {
+    "href": "https://fonts.googleapis.com/css2?family=Jomolhari&display=swap",
+    "rel": "stylesheet",
+    "as": null
+  },
+  {
+    "href": "https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap",
+    "rel": "stylesheet",
+    "as": null
+  },
+  {
+    "href": "https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap",
+    "rel": "stylesheet",
+    "as": null
+  }
+]

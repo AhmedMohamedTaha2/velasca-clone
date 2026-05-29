@@ -1,0 +1,65 @@
+{
+  "count": 6,
+  "titles": [
+    {
+      "text": "Lace-ups",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "lineHeight": "25px",
+      "letterSpacing": "2px",
+      "color": "rgb(49, 51, 50)",
+      "textDecoration": "none",
+      "transition": "color 0.2s ease-in-out"
+    },
+    {
+      "text": "Knitwear",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "lineHeight": "25px",
+      "letterSpacing": "2px",
+      "color": "rgb(49, 51, 50)",
+      "textDecoration": "none",
+      "transition": "color 0.2s ease-in-out"
+    },
+    {
+      "text": "Tassel and Belgian Loafers",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "lineHeight": "25px",
+      "letterSpacing": "2px",
+      "color": "rgb(49, 51, 50)",
+      "textDecoration": "none",
+      "transition": "color 0.2s ease-in-out"
+    },
+    {
+      "text": "Pants",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "lineHeight": "25px",
+      "letterSpacing": "2px",
+      "color": "rgb(49, 51, 50)",
+      "textDecoration": "none",
+      "transition": "color 0.2s ease-in-out"
+    },
+    {
+      "text": "Sneakers",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "lineHeight": "25px",
+      "letterSpacing": "2px",
+      "color": "rgb(49, 51, 50)",
+      "textDecoration": "none",
+      "transition": "color 0.2s ease-in-out"
+    },
+    {
+      "text": "Jackets",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "lineHeight": "25px",
+      "letterSpacing": "2px",
+      "color": "rgb(49, 51, 50)",
+      "textDecoration": "none",
+      "transition": "color 0.2s ease-in-out"
+    }
+  ]
+}

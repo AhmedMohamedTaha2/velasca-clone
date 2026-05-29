@@ -1,0 +1,13 @@
+{
+  "viewport": 375,
+  "cardPadding": "34px 60px",
+  "h3": {
+    "fontSize": "16px",
+    "lineHeight": "20px"
+  },
+  "h2": {
+    "fontSize": "30px",
+    "lineHeight": "37.5px",
+    "letterSpacing": "-2px"
+  }
+}

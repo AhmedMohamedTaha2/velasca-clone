@@ -1,0 +1,29 @@
+{
+  "card": {
+    "width": 472.953125,
+    "height": 183.5,
+    "paddingTop": "48px",
+    "paddingRight": "84px",
+    "paddingBottom": "48px",
+    "paddingLeft": "84px",
+    "marginTop": "100px",
+    "marginRight": "50px",
+    "marginBottom": "100px",
+    "marginLeft": "50px",
+    "maxWidth": "500px",
+    "backgroundColor": "rgb(255, 255, 255)"
+  },
+  "h3": {
+    "fontSize": "20px",
+    "lineHeight": "25px",
+    "letterSpacing": "2px",
+    "marginBottom": "0px",
+    "fontFamily": "Jost, serif"
+  },
+  "h2": {
+    "fontSize": "50px",
+    "lineHeight": "62.5px",
+    "letterSpacing": "-3px",
+    "fontFamily": "Jomolhari, serif"
+  }
+}

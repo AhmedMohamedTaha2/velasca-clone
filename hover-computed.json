@@ -1,0 +1,15 @@
+{
+  "color": "rgb(24, 86, 116)",
+  "textDecorationColor": "rgb(24, 86, 116)",
+  "textDecorationLine": "underline",
+  "textDecorationThickness": "1px",
+  "textDecorationStyle": "solid",
+  "textUnderlineOffset": "3px",
+  "fontSize": "20px",
+  "fontWeight": "500",
+  "fontFamily": "Jost, serif",
+  "letterSpacing": "2px",
+  "lineHeight": "25px",
+  "textTransform": "uppercase",
+  "transition": "all"
+}

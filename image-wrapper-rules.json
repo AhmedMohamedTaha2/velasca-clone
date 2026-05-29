@@ -1,0 +1,30 @@
+[
+  {
+    "mediaQuery": null,
+    "rule": ".hyiMfc { position: absolute; inset: 0px; }"
+  },
+  {
+    "mediaQuery": null,
+    "rule": ".kLnxpW { text-align: center; max-width: 50rem; background: rgb(255, 255, 255); position: relative; z-index: 1; padding: 3.4rem 16%; margin: 10rem 6rem; }"
+  },
+  {
+    "mediaQuery": "screen and (min-width: 768px)",
+    "rule": ".kLnxpW { padding: 4.8rem 8.4rem; min-width: initial; }"
+  },
+  {
+    "mediaQuery": null,
+    "rule": "@media screen and (min-width: 768px) {\n  .kLnxpW { padding: 4.8rem 8.4rem; min-width: initial; }\n}"
+  },
+  {
+    "mediaQuery": null,
+    "rule": ".fcxgrG { text-align: center; max-width: 50rem; background: rgb(255, 255, 255); position: relative; z-index: 1; padding: 3.4rem 16%; margin: 10rem 6rem; }"
+  },
+  {
+    "mediaQuery": "screen and (min-width: 768px)",
+    "rule": ".fcxgrG { padding: 4.8rem 8.4rem; min-width: initial; }"
+  },
+  {
+    "mediaQuery": null,
+    "rule": "@media screen and (min-width: 768px) {\n  .fcxgrG { padding: 4.8rem 8.4rem; min-width: initial; }\n}"
+  }
+]

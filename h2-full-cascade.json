@@ -1,0 +1,21 @@
+{
+  "h2Classes": [
+    "SerifTitlestyles__Title-velasca__sc-1vrlen0-0",
+    "gEqPbv"
+  ],
+  "computedFontSize": "30px",
+  "rules": [
+    {
+      "mq": null,
+      "rule": ".gEqPbv { font-family: Jomolhari, serif; font-weight: 400; line-height: 125%; margin: 0px; padding: 0px; color: rgb(49, 51, 50); font-size: 30px; letter-spacing: -2px; }"
+    },
+    {
+      "mq": null,
+      "rule": ".gEqPbv p { font-size: inherit; line-height: inherit; margin-bottom: 0px; }"
+    },
+    {
+      "mq": null,
+      "rule": ".lfLkzu:hover .SerifTitlestyles__Title-velasca__sc-1vrlen0-0 { text-decoration: underline 0.2rem; text-underline-offset: 1.4rem; }"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+- generic [active] [ref=e1] [cursor=pointer]:
+  - generic:
+    - link "↵ Skip to content" [ref=e2]:
+      - /url: "#skip-skip-to-content"
+    - link "↵ Skip to footer" [ref=e3]:
+      - /url: "#footer-react"
+    - button "↵ Open Accessibility Widget" [ref=e4]
+  - main [ref=e5]:
+    - generic:
+      - region "Notifications alt+T"
+      - generic [ref=e6]:
+        - generic [ref=e13]:
+          - text: "Velasca Days: 20% off all"
+          - link "shoes" [ref=e14]:
+            - /url: /collections/all-shoes
+          - text: and
+          - link "clothing" [ref=e15]:
+            - /url: /collections/all-clothing
+          - text: .
+        - navigation [ref=e16]:
+          - generic [ref=e17]:
+            - generic [ref=e18]:
+              - button [ref=e19]
+              - img [ref=e25]
+            - heading [level=1] [ref=e28]:
+              - img [ref=e29]
+            - img [ref=e49]
+    - generic [ref=e52]:
+      - link "Discover all products" [ref=e58]:
+        - /url: /collections/all-products
+        - generic [ref=e59]: Discover all products
+      - generic [ref=e61]:
+        - link "A man is holding a pair of dark brown suede Velasca penny loafers. SHOES" [ref=e62]:
+          - /url: /collections/all-shoes
+          - img "A man is holding a pair of dark brown suede Velasca penny loafers." [ref=e64]
+          - generic [ref=e65]:
+            - heading "SHOES" [level=3] [ref=e66]
+            - img [ref=e67]
+        - link "A man is wearing a dark grey Velasca suit and a bordeaux shirt. CLOTHING" [ref=e69]:
+          - /url: /collections/all-clothing
+          - img "A man is wearing a dark grey Velasca suit and a bordeaux shirt." [ref=e71]
+          - generic [ref=e72]:
+            - heading "CLOTHING" [level=3] [ref=e73]
+            - img [ref=e74]
+        - link "Close-up of a man wearing a light brown woven leather Velasca belt. ACCESSORIES" [ref=e76]:
+          - /url: /collections/all-accessories
+          - img "Close-up of a man wearing a light brown woven leather Velasca belt." [ref=e78]
+          - generic [ref=e79]:
+            - heading "ACCESSORIES" [level=3] [ref=e80]
+            - img [ref=e81]
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - link "P/E '25 Style Edit" [ref=e89]:
+            - /url: /pages/s-s-2025-style-edit
+            - generic [ref=e90]: P/E '25 Style Edit
+          - generic [ref=e92]:
+            - img "Inside a historic apartment with Sicilian majolica floors, a man is seated wearing a dark grey Velasca suit with a bordeaux shirt." [ref=e93]
+            - link "Spring/Summer '26" [ref=e95]:
+              - /url: /pages/spring-summer-2026
+              - generic [ref=e96]: Spring/Summer '26
+          - generic [ref=e98]:
+            - img "A man in the Sicilian coastal countryside is wearing a beige ribbed double-breasted cardigan and a striped bowling-collar shirt." [ref=e99]
+            - link "S/S '26 in Sicily" [ref=e101]:
+              - /url: /pages/spring-summer-2026-in-sicily
+              - generic [ref=e102]: S/S '26 in Sicily
+          - generic [ref=e104]:
+            - img "A man and a woman ride a wooden sled down a snowy valley. She wears an oversized Velasca Women shearling jacket, he wears an aviator shearling from the Velasca menswear collection." [ref=e105]
+            - link "Winter in the Dolomites" [ref=e107]:
+              - /url: /pages/winter-in-the-dolomites
+              - generic [ref=e108]: Winter in the Dolomites
+          - generic [ref=e110]:
+            - img "A man wears a double-breasted Prince of Wales check wool blazer with a ribbed crewneck sweater, among mountain pastures with cows in the background." [ref=e111]
+            - link "F/W ’25 in Cortina" [ref=e113]:
+              - /url: /pages/fall-winter-2025-in-the-dolomites
+              - generic [ref=e114]: F/W ’25 in Cortina
+          - generic [ref=e116]:
+            - img "A man wears a brown single-breasted wool coat paired with a beige crewneck sweater and a light blue shirt. Inside a mountain lodge with wooden furniture." [ref=e117]
+            - link "Fall/Winter '25" [ref=e119]:
+              - /url: /pages/fall-winter-2025
+              - generic [ref=e120]: Fall/Winter '25
+          - link "By the Amalfi Coast" [ref=e124]:
+            - /url: /pages/by-the-amalfi-coast
+            - generic [ref=e125]: By the Amalfi Coast
+          - link "A trip to Apulia" [ref=e129]:
+            - /url: /pages/s-s-in-apulia
+            - generic [ref=e130]: A trip to Apulia
+          - link "P/E '25 Style Edit" [ref=e134]:
+            - /url: /pages/s-s-2025-style-edit
+            - generic [ref=e135]: P/E '25 Style Edit
+          - generic [ref=e137]:
+            - img "Inside a historic apartment with Sicilian majolica floors, a man is seated wearing a dark grey Velasca suit with a bordeaux shirt." [ref=e138]
+            - link "Spring/Summer '26" [ref=e140]:
+              - /url: /pages/spring-summer-2026
+              - generic [ref=e141]: Spring/Summer '26
+        - text: prev next
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - heading "Get inspired" [level=2] [ref=e153]
+          - heading [level=3]
+        - generic [ref=e154]:
+          - link "Lace-ups" [ref=e155]:
+            - /url: /collections/lace-ups
+            - generic [ref=e157]:
+              - heading "Lace-ups" [level=3] [ref=e158]
+              - img [ref=e159]
+          - link "Knitwear" [ref=e161]:
+            - /url: /collections/knitwear
+            - generic [ref=e163]:
+              - heading "Knitwear" [level=3] [ref=e164]
+              - img [ref=e165]
+          - link "Tassel and Belgian loafers" [ref=e167]:
+            - /url: /collections/tassel-and-belgian-loafers
+            - generic [ref=e169]:
+              - heading "Tassel and Belgian loafers" [level=3] [ref=e170]
+              - img [ref=e171]
+          - link "Pants" [ref=e173]:
+            - /url: /collections/pants
+            - generic [ref=e175]:
+              - heading "Pants" [level=3] [ref=e176]
+              - img [ref=e177]
+          - link "Sneakers" [ref=e179]:
+            - /url: /collections/sneakers
+            - generic [ref=e181]:
+              - heading "Sneakers" [level=3] [ref=e182]
+              - img [ref=e183]
+          - link "Jackets" [ref=e185]:
+            - /url: /collections/jackets
+            - generic [ref=e187]:
+              - heading "Jackets" [level=3] [ref=e188]
+              - img [ref=e189]
+      - generic [ref=e192]:
+        - img "Full-body shot of a craftsman as he creates a shoe." [ref=e195]
+        - link "Artisanal craftmanship Made in Italy" [ref=e196]:
+          - /url: /pages/about-us
+          - heading "Artisanal craftmanship" [level=3] [ref=e197]
+          - heading "Made in Italy" [level=2] [ref=e198]
+      - generic [ref=e200]:
+        - img "Entrance of a Velasca boutique with sign and shop windows, on a cobblestone street in the city center." [ref=e203]
+        - link "Come visit us In store" [ref=e204]:
+          - /url: /pages/all-our-stores
+          - heading "Come visit us" [level=3] [ref=e205]
+          - heading "In store" [level=2] [ref=e206]
+      - generic [ref=e209]:
+        - img "A woman is leaning against an old boat pulled up onto the quay. She is wearing a long, lightweight skirt and a red cardigan." [ref=e212]
+        - link "Velasca For her" [ref=e213]:
+          - /url: https://www.velascawomen.com/
+          - heading "Velasca" [level=3] [ref=e214]
+          - heading "For her" [level=2] [ref=e215]
+    - generic [ref=e218]:
+      - img [ref=e219]
+      - generic [ref=e220]:
+        - generic [ref=e222]:
+          - heading "Let’s keep in touch" [level=2] [ref=e223]
+          - paragraph [ref=e226]: News and inspiration straight to your inbox, every week. Let’s have some fun, with style.
+          - generic [ref=e228]:
+            - textbox "Enter your email" [ref=e229]
+            - button [ref=e231]:
+              - img [ref=e232]
+          - generic [ref=e237]:
+            - paragraph [ref=e238]:
+              - text: By clicking you agree to Velasca's
+              - link "terms of" [ref=e239]:
+                - /url: https://www.iubenda.com/terms-and-conditions/8014923
+            - paragraph [ref=e240]:
+              - link "service" [ref=e241]:
+                - /url: https://www.iubenda.com/terms-and-conditions/8014923
+              - text: and consent to the processing of your data.
+        - img "Man wearing a beige and brown checked tailored jacket, a green ribbed sweater, and a white striped shirt." [ref=e244]
+  - contentinfo [ref=e245]:
+    - generic [ref=e246]:
+      - navigation "Breadcrumb" [ref=e247]:
+        - list [ref=e248]:
+          - listitem [ref=e249]:
+            - link "Home" [ref=e250]:
+              - /url: /
+      - separator [ref=e251]
+      - heading "Footer" [level=2] [ref=e252]
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - heading "WE'RE HERE FOR YOU" [level=3] [ref=e255]
+          - paragraph [ref=e256]: Velasca was created to offer you artisanal quality shoes and clothing at a fair price. To be worn for a lifetime. We really care, so if you have any doubts, do get in touch.
+        - generic [ref=e257]:
+          - heading "HELP" [level=3] [ref=e258]
+          - list [ref=e259]:
+            - listitem [ref=e260]:
+              - link "Impact report" [ref=e261]:
+                - /url: https://cdn.shopify.com/s/files/1/1627/0215/files/Relazione_d_impatto_2025.pdf?v=1775030578
+            - listitem [ref=e262]:
+              - link "Accessibility Statement" [ref=e263]:
+                - /url: https://cdn.shopify.com/s/files/1/1627/0215/files/Accessibility_Statement_ENG.pdf?v=1751287989
+            - listitem [ref=e264]:
+              - link "Shipping and returns" [ref=e265]:
+                - /url: /pages/shipping-and-return
+            - listitem [ref=e266]:
+              - link "Make a return" [ref=e267]:
+                - /url: https://go.ifreturns.com/en/us-velasca
+            - listitem [ref=e268]:
+              - 'link "Mob: +1 929 384 6040" [ref=e269]':
+                - /url: tel:+19293846040
+            - listitem [ref=e270]:
+              - 'link "Email: hello@velasca.com" [ref=e271]':
+                - /url: mailto:hello@velasca.com
+        - generic [ref=e272]:
+          - heading "ABOUT" [level=3] [ref=e273]
+          - list [ref=e274]:
+            - listitem [ref=e275]:
+              - link "All our stores" [ref=e276]:
+                - /url: /pages/all-our-stores
+            - listitem [ref=e277]:
+              - link "About us" [ref=e278]:
+                - /url: /pages/about-us
+            - listitem [ref=e279]:
+              - link "Work with us" [ref=e280]:
+                - /url: https://velasca.workable.com/
+            - listitem [ref=e281]:
+              - link "Archive" [ref=e282]:
+                - /url: /collections/outlet
+      - img "Accepted payments icon" [ref=e283]
+      - separator [ref=e284]
+      - generic [ref=e285]:
+        - generic [ref=e286]: "© All rights reserved: Velasca LLC, 250 Elizabeth Street, New York, NY 10012, United States"
+        - list [ref=e287]:
+          - listitem [ref=e288]:
+            - link "Terms & Conditions" [ref=e289]:
+              - /url: /pages/terms-and-conditions
+          - listitem [ref=e290]:
+            - link "Privacy Policy" [ref=e291]:
+              - /url: /pages/privacy
+          - listitem [ref=e292]:
+            - link "Cookie Policy" [ref=e293]:
+              - /url: /pages/cookie-policy
+          - listitem [ref=e294]:
+            - link "Whistleblowing" [ref=e295]:
+              - /url: /pages/whistleblowing
+  - img [ref=e297]
+  - button "Your consent preferences for tracking technologies" [ref=e301]:
+    - generic [ref=e302]: Your consent preferences for tracking technologies

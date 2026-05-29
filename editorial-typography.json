@@ -1,0 +1,54 @@
+{
+  "h3": {
+    "tagName": "H3",
+    "className": "SansTitlestyles__Title-velasca__sc-4f82ke-0 jOahfV",
+    "fontFamily": "Jost, serif",
+    "fontSize": "20px",
+    "fontWeight": "500",
+    "fontStyle": "normal",
+    "lineHeight": "25px",
+    "letterSpacing": "2px",
+    "textTransform": "uppercase",
+    "color": "rgb(49, 51, 50)",
+    "marginTop": "0px",
+    "marginBottom": "0px",
+    "padding": "0px",
+    "display": "block",
+    "textContent": "Artisanal craftmanship"
+  },
+  "h2": {
+    "tagName": "H2",
+    "className": "SerifTitlestyles__Title-velasca__sc-1vrlen0-0 oUAEg",
+    "fontFamily": "Jomolhari, serif",
+    "fontSize": "50px",
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "lineHeight": "62.5px",
+    "letterSpacing": "-3px",
+    "textTransform": "none",
+    "color": "rgb(49, 51, 50)",
+    "marginTop": "0px",
+    "marginBottom": "0px",
+    "padding": "0px",
+    "display": "block",
+    "textContent": "Made in Italy"
+  },
+  "children": [
+    {
+      "tagName": "H3",
+      "className": "SansTitlestyles__Title-velasca__sc-4f82ke-0 jOahfV",
+      "textContent": "Artisanal craftmanship",
+      "fontSize": "20px",
+      "fontFamily": "Jost, serif",
+      "display": "block"
+    },
+    {
+      "tagName": "H2",
+      "className": "SerifTitlestyles__Title-velasca__sc-1vrlen0-0 oUAEg",
+      "textContent": "Made in Italy",
+      "fontSize": "50px",
+      "fontFamily": "Jomolhari, serif",
+      "display": "block"
+    }
+  ]
+}

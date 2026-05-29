@@ -1,0 +1,46 @@
+[
+  {
+    "mediaQuery": null,
+    "rule": ".oUAEg { font-family: Jomolhari, serif; font-weight: 400; line-height: 125%; margin: 0px; padding: 0px; color: rgb(49, 51, 50); font-size: 50px; letter-spacing: -3px; }"
+  },
+  {
+    "mediaQuery": null,
+    "rule": ".oUAEg p { font-size: inherit; line-height: inherit; margin-bottom: 0px; }"
+  },
+  {
+    "mediaQuery": null,
+    "rule": ".lfLkzu:hover { text-decoration: none; }"
+  },
+  {
+    "mediaQuery": null,
+    "rule": ".lfLkzu:hover .SerifTitlestyles__Title-velasca__sc-1vrlen0-0 { text-decoration: underline 0.2rem; text-underline-offset: 1.4rem; }"
+  },
+  {
+    "mediaQuery": null,
+    "rule": ".feVyku { background-color: rgb(255, 255, 255); margin-bottom: 2rem; }"
+  },
+  {
+    "mediaQuery": null,
+    "rule": ".hupGUI { position: relative; min-height: 56rem; display: flex; -webkit-box-pack: center; justify-content: center; -webkit-box-align: center; align-items: center; }"
+  },
+  {
+    "mediaQuery": "screen and (min-width: 768px)",
+    "rule": ".hupGUI { min-height: 70rem; }"
+  },
+  {
+    "mediaQuery": null,
+    "rule": "@media screen and (min-width: 768px) {\n  .hupGUI { min-height: 70rem; }\n}"
+  },
+  {
+    "mediaQuery": null,
+    "rule": ".QEbJK { text-align: center; max-width: 50rem; background: rgb(255, 255, 255); position: relative; z-index: 1; padding: 3.4rem 16%; margin: 10rem 5rem; }"
+  },
+  {
+    "mediaQuery": "screen and (min-width: 768px)",
+    "rule": ".QEbJK { padding: 4.8rem 8.4rem; min-width: initial; }"
+  },
+  {
+    "mediaQuery": null,
+    "rule": "@media screen and (min-width: 768px) {\n  .QEbJK { padding: 4.8rem 8.4rem; min-width: initial; }\n}"
+  }
+]
