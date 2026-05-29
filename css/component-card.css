@@ -47,8 +47,7 @@
   min-height: 25px;
 }
 
-h3.category-card__label,
-h3.inspired-card-label {
+h3.category-card__label {
   font-family: var(--font-primary);
   font-size: 20px;
   font-weight: 500;
@@ -57,20 +56,17 @@ h3.inspired-card-label {
   text-transform: uppercase;
   color: var(--color-text);
   margin: 0;
+  transition: color 0.2s ease-in-out;
 }
 
-/* Theme-colored underline on hover for category labels (also when hovering parent card) */
+/* Hover for top-3 category cards (SHOES / CLOTHING / ACCESSORIES) */
 h3.category-card__label:hover,
-h3.inspired-card-label:hover,
 .category-card:hover h3.category-card__label,
-.inspired-card:hover h3.inspired-card-label,
-.category-card:focus-within h3.category-card__label,
-.inspired-card:focus-within h3.inspired-card-label {
-  color: var(--theme-primary-color);
-  text-decoration: underline;
-  text-decoration-color: var(--theme-primary-color);
-  text-decoration-thickness: 0.1rem;
-  text-underline-offset: 0.3rem;
+.category-card:active h3.category-card__label,
+.category-card:focus-within h3.category-card__label {
+  color: var(--color-primary);
+  text-decoration: underline 1px;
+  text-underline-offset: 3px;
 }
 
 .category-card__arrow,
@@ -84,10 +80,60 @@ h3.inspired-card-label:hover,
 }
 
 .category-card:hover .category-card__arrow,
-.inspired-card:hover .inspired-card__arrow,
-.category-card:hover .pathArrow,
-.inspired-card:hover .pathArrow {
+.category-card:hover .pathArrow {
   stroke: var(--theme-primary-color);
+}
+
+/* ══════════════════════════════════════════════════════
+   GET INSPIRED GRID — 6 category titles
+   Selector mirrors velasca.com: .GWqXK:hover .SansTitlestyles
+   ══════════════════════════════════════════════════════ */
+
+.CategoriesGridstyle__CollectionCardWrapper-velasca__sc-wo1twx-5 h3 {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #313332;
+  text-decoration: none;
+  margin: 0;
+  transition: color 0.2s ease-in-out;
+}
+
+/* Mobile: 14px font-size */
+@media (max-width: 767px) {
+  .CategoriesGridstyle__CollectionCardWrapper-velasca__sc-wo1twx-5 h3 {
+    font-size: 14px;
+    line-height: 17.5px;
+  }
+}
+
+/* Tablet: 14px font-size */
+@media (min-width: 768px) and (max-width: 991px) {
+  .CategoriesGridstyle__CollectionCardWrapper-velasca__sc-wo1twx-5 h3 {
+    font-size: 14px;
+    line-height: 17.5px;
+  }
+}
+
+.CategoriesGridstyle__CollectionCardWrapper-velasca__sc-wo1twx-5:hover h3,
+.CategoriesGridstyle__CollectionCardWrapper-velasca__sc-wo1twx-5:active h3,
+.CategoriesGridstyle__CollectionCardWrapper-velasca__sc-wo1twx-5:focus-within
+  h3 {
+  color: #185674;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: #185674;
+}
+
+.CategoriesGridstyle__CollectionCardWrapper-velasca__sc-wo1twx-5:hover
+  .pathArrow,
+.CategoriesGridstyle__CollectionCardWrapper-velasca__sc-wo1twx-5:hover
+  .inspired-card__arrow {
+  stroke: #185674;
 }
 
 /* ── EDITORIAL PROMO BLOCKS (AboutUs / Bottegas) ─── */
@@ -152,6 +198,7 @@ h3.inspired-card-label:hover,
 .editorial-card {
   background-color: var(--color-bg);
   padding: 48px 84px;
+  max-width: 500px;
   text-align: center;
   border-radius: 0;
   text-decoration: none;
@@ -159,8 +206,7 @@ h3.inspired-card-label:hover,
   transition: var(--transition-micro);
 }
 
-.editorial-card h3.editorial-card__eyebrow,
-.editorial-card__eyebrow {
+.editorial-card .editorial-card__eyebrow {
   display: block;
   font-family: var(--font-primary);
   font-size: 20px;
@@ -169,11 +215,10 @@ h3.inspired-card-label:hover,
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--color-text);
-  margin-bottom: 8px;
+  margin: 0;
 }
 
-.editorial-card h2.editorial-card__headline,
-.editorial-card__headline {
+.editorial-card .editorial-card__headline {
   display: block;
   font-family: var(--font-display);
   font-size: 50px;
@@ -185,29 +230,31 @@ h3.inspired-card-label:hover,
 
 @media (max-width: 767px) {
   .editorial-section--promo .editorial-card {
-    padding: 34px 60px;
-    max-width: 90%;
+    padding: 34px 16%;
+    max-width: 500px;
   }
 
-  .editorial-section--promo .editorial-card__headline {
+  .editorial-section--promo .editorial-card h2.editorial-card__headline,
+  .editorial-section--promo .editorial-card .editorial-card__headline {
     font-size: 30px;
     line-height: 37.5px;
     letter-spacing: -2px;
   }
 
+  /* Mobile eyebrow: 16px (velasca .duTOQE computed value) */
   .editorial-section--promo .editorial-card__eyebrow {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
   }
 
   .editorial-card {
-    padding: 32px 40px;
-    max-width: 90%;
+    padding: 34px 16%;
+    max-width: 500px;
   }
 
   .editorial-card__headline {
-    font-size: 36px;
-    line-height: 45px;
+    font-size: 30px;
+    line-height: 37.5px;
     letter-spacing: -2px;
   }
 }
@@ -287,8 +334,11 @@ h3.inspired-card-label:hover,
 
 @media (max-width: 767px) {
   .editorial-section--redirect .editorial-card {
-    padding: 34px 60px;
-    max-width: 90%;
+    text-align: center;
+    max-width: 500px;
+    background-color: rgb(255, 255, 255);
+    padding: 34px 16%;
+    margin: 100px 50px;
   }
 
   .editorial-section--redirect .editorial-card__headline {
@@ -298,7 +348,7 @@ h3.inspired-card-label:hover,
   }
 
   .editorial-section--redirect .editorial-card__eyebrow {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
   }
 }
@@ -309,25 +359,12 @@ h3.inspired-card-label:hover,
   }
 }
 
-/* About Us / promo editorial — serif headline underline on hover (.lfLkzu parity) */
-@media (max-width: 767px) {
-  a.editorial-card:hover {
-    text-decoration: none;
-  }
-  a.editorial-card:hover .editorial-card__headline {
-    text-decoration: underline 0.2rem;
-    text-underline-offset: 1.4rem;
-    text-decoration-color: currentColor;
-  }
+/* About Us / promo editorial hover — matches velasca .lfLkzu:hover rule */
+/* velasca authored: underline 0.2rem / offset 1.4rem at 1rem=10px = 2px / 14px */
+a.editorial-card:hover {
+  text-decoration: none;
 }
-
-@media (min-width: 992px) {
-  a.editorial-card:hover {
-    text-decoration: none;
-  }
-  a.editorial-card:hover .editorial-card__headline {
-    text-decoration: underline 0.2rem;
-    text-underline-offset: 1.4rem;
-    text-decoration-color: currentColor;
-  }
+a.editorial-card:hover .editorial-card__headline {
+  text-decoration: underline 2px;
+  text-underline-offset: 14px;
 }
