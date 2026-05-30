@@ -812,76 +812,289 @@
   }
 }
 
-/* ── MOBILE MENU DRAWER ───────────────────────────── */
+/* ── MOBILE MENU DRAWER — Pixel-perfect Velasca match ─────────────
+   Values extracted via Playwright from velasca.com (2026-05-30)
+   Base: 1rem = 10px (velasca styled-component root)
+─────────────────────────────────────────────────────────────────── */
+
+/* Container: covers full screen, hidden by default */
 .mobile-drawer {
   position: fixed;
   inset: 0;
   z-index: 1100;
   pointer-events: none;
-  opacity: 0;
-  transition: var(--transition-overlay);
+  visibility: hidden;
 }
 
 .mobile-drawer.is-open {
   pointer-events: auto;
-  opacity: 1;
+  visibility: visible;
 }
 
+/* Overlay: hidden — panel is full-screen so no backdrop needed.
+   Kept in DOM so JS click-to-close listener still binds safely. */
 .mobile-drawer__overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(49, 51, 50, 0.5);
+  display: none;
 }
 
+/* Panel: full-width, full-height, slides from left
+   font-size: 10px sets the rem base for all child rem values */
 .mobile-drawer__panel {
   position: absolute;
   top: 0;
   left: 0;
-  width: min(var(--drawer-width), 85vw);
-  height: 100%;
-  background: var(--color-bg);
-  padding: 60px 24px 40px;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   transform: translateX(-100%);
-  transition: var(--transition-drawer);
-  overflow-y: auto;
+  transition: transform 0.3s cubic-bezier(0, 0, 0, 1);
+  font-size: 10px;
 }
 
 .mobile-drawer.is-open .mobile-drawer__panel {
   transform: translateX(0);
 }
 
-.mobile-drawer__close {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  font-size: 26px;
-  color: var(--color-text);
-  line-height: 1;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.mobile-drawer__nav {
+/* Bar: matches velasca MobileNavigationstyles__Bar
+   bg: rgb(249,248,247) · padding: 5px 12.5px · height: ~68px
+   Padding converted from 0.5rem 1.25rem to avoid rem conflicts */
+.mobile-drawer__bar {
+  flex-shrink: 0;
+  position: relative;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  padding: 5px 12.5px;
+  background: rgb(249, 248, 247);
+  min-height: 58px;
+  transition: background 0.2s cubic-bezier(0, 0, 0, 1);
 }
 
-.mobile-drawer__nav a {
-  font-size: 14px;
-  font-weight: 400;
-  color: var(--color-text);
-  padding: 16px 24px;
-  border-bottom: 1px solid var(--color-border);
-  letter-spacing: 1px;
-  text-transform: uppercase;
+/* Centered logo in bar */
+.mobile-drawer__bar-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(49, 51, 50);
+}
+
+.mobile-drawer__bar-logo-svg {
+  display: block;
+  width: 100px;
+  height: auto;
+}
+
+/* Right-side icon (bag/cart) */
+.mobile-drawer__bar-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  color: rgb(49, 51, 50);
   text-decoration: none;
 }
 
-@media (min-width: 992px) {
-  .mobile-drawer__nav a:hover {
-    color: var(--color-primary);
-  }
+/* Close button: positioned where the hamburger lives (left side) */
+.mobile-drawer__close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: rgb(49, 51, 50);
+  position: static;
+  top: auto;
+  right: auto;
+  font-size: inherit;
+  line-height: inherit;
+  flex-shrink: 0;
+}
+
+/* X icon: two lines crossed (hamburger → X state) */
+.mobile-drawer__x-icon {
+  position: relative;
+  display: block;
+  width: 22px;
+  height: 22px;
+}
+
+.mobile-drawer__x-icon span {
+  position: absolute;
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: currentColor;
+  top: 50%;
+  left: 0;
+  transform-origin: center;
+}
+
+.mobile-drawer__x-icon span:first-child {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.mobile-drawer__x-icon span:last-child {
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+/* Content area: matches velasca MobileNavigationstyles__MenuLists
+   bg: rgb(245,245,245) · padding: 0 12.5px · gap: 29px
+   Padding converted from 0 1.25rem to avoid rem conflicts */
+.mobile-drawer__content {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  background: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 29px;
+  padding: 0 12.5px;
+}
+
+/* Nav container: matches velasca MenuItemsLinks (.bVkYro) */
+.mobile-drawer__nav {
+  display: block;
+}
+
+/* Menu entry links: matches velasca MenuEntry (.dNWDCo)
+   padding: 14.75px 0 · border-bottom: 1px solid rgb(217,217,217)
+   Font size converted from 1.4rem (14.75px in 10px root) to avoid rem conflicts */
+.mobile-drawer__nav a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14.75px 0;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  text-decoration: none;
+  color: rgb(49, 51, 50);
+  font-family: "Jost", serif;
+  font-size: 14px;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+.mobile-drawer__nav a:link,
+.mobile-drawer__nav a:visited,
+.mobile-drawer__nav a:active {
+  text-decoration: none;
+}
+
+/* Menu title span: matches velasca MenuTitle (.itYNnC)
+   14px · weight 400 · uppercase · padding: 4px 0
+   Font size converted from 1.4rem to 14px to avoid rem conflicts */
+.mobile-drawer__menu-title {
+  display: block;
+  font-family: "Jost", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  padding: 4px 0;
+  color: rgb(49, 51, 50);
+}
+
+/* New Arrivals: matches velasca .itYNnC.italic-blue */
+.mobile-drawer__menu-title.italic-blue {
+  font-style: italic;
+  color: rgb(66, 120, 146);
+}
+
+/* Woman: matches velasca .itYNnC.boxed — outline not border
+   Padding converted from 0.4rem to 4px, 2.4rem to 24px */
+.mobile-drawer__menu-title.boxed {
+  font-style: italic;
+  color: rgb(75, 108, 94);
+  outline: rgb(75, 108, 94) solid 1px;
+  outline-offset: -1px;
+  padding: 4px 24px;
+}
+
+/* Arrow SVG: matches velasca ArrowRight (.bZNNut) — 10×10px, black fill
+   Dimensions converted from 1rem to 10px */
+.mobile-drawer__arrow {
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+  fill: rgb(0, 0, 0);
+}
+
+/* Lower menu: matches velasca LowerMenu (list-style: none, no border-top) */
+.mobile-drawer__lower-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Lower menu item: matches velasca LowerMenuListItem (.bwiXAk)
+   Padding converted from 1rem to 10px to match 10px base from velasca */
+.mobile-drawer__lower-menu li {
+  padding: 10px 0;
+}
+
+/* Lower menu link: matches velasca Link (.zcULo)
+   Font size converted from 1.4rem to 14px to avoid rem conflicts */
+.mobile-drawer__lower-menu a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0;
+  border: none;
+  color: rgb(49, 51, 50);
+  font-family: "Jost", serif;
+  font-size: 14px;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+.mobile-drawer__lower-menu a:link,
+.mobile-drawer__lower-menu a:visited,
+.mobile-drawer__lower-menu a:active {
+  text-decoration: none;
+}
+
+/* LowerMenuTitle: matches velasca .bnEVpX
+   Gap converted from 1rem to 10px */
+.mobile-drawer__lower-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Icon wrapper: matches velasca LowerMenuIconWrapper (.jsDwfp)
+   Dimensions converted from rem to px: 1.9rem=19px, 1.8rem=18px */
+.mobile-drawer__icon-wrap {
+  display: flex;
+  width: 19px;
+  height: 18px;
+  margin-top: -1px;
+  flex-shrink: 0;
+}
+
+.mobile-drawer__icon-wrap svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Text label: matches velasca .bnEVpX .text — 14px, dark text
+   Font size converted from 1.4rem to 14px to avoid rem conflicts */
+.mobile-drawer__lower-title .text {
+  font-family: "Jost", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0;
+  color: rgb(49, 51, 50);
 }
 
 /* ── BACK TO TOP ───────────────────────────────────── */

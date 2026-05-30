@@ -1,0 +1,167 @@
+{
+  "velasca": {
+    "rootFontSetup": {
+      "htmlFontSize": "10px",
+      "bodyFontSize": "9px",
+      "oneRem": "10px"
+    },
+    "mainNav": [],
+    "lowerMenu": []
+  },
+  "local": {
+    "rootFontSetup": {
+      "htmlFontSize": "16px",
+      "bodyFontSize": "9px",
+      "panelFontSize": "10px",
+      "oneRem": "16px"
+    },
+    "mainNav": [
+      {
+        "text": "New Arrivals",
+        "fontFamily": "Jost, serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      {
+        "text": "Shoes",
+        "fontFamily": "Jost, serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      {
+        "text": "Clothing",
+        "fontFamily": "Jost, serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      {
+        "text": "Accessories",
+        "fontFamily": "Jost, serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      {
+        "text": "Collections",
+        "fontFamily": "Jost, serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      {
+        "text": "Stores",
+        "fontFamily": "Jost, serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      {
+        "text": "Archive",
+        "fontFamily": "Jost, serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      {
+        "text": "Help",
+        "fontFamily": "Jost, serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      {
+        "text": "Woman",
+        "fontFamily": "Jost, serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      }
+    ],
+    "lowerMenu": [
+      {
+        "text": "Call us",
+        "fontFamily": "Jost, serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal"
+      },
+      {
+        "text": "Call us",
+        "fontFamily": "Jost, serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal"
+      },
+      {
+        "text": "Order through WhatsApp",
+        "fontFamily": "Jost, serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal"
+      },
+      {
+        "text": "Order through WhatsApp",
+        "fontFamily": "Jost, serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal"
+      },
+      {
+        "text": ".mdlc1{fill:none;stroke:#",
+        "fontFamily": "Jost, serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal"
+      },
+      {
+        "text": "Your Account",
+        "fontFamily": "Jost, serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal"
+      }
+    ]
+  }
+}
